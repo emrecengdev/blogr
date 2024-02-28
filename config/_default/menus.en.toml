@@ -1,11 +1,143 @@
+# Fixed part
 [[main]]
 none = "none"
 
 [[main]]
 pre = "github"
 url = "https://github.com/emrecengdev"
-identifier = "1nUp0YFPDN"
-weight = 9999
+identifier = "github"
+weight = 10
 
-[[footer]]
-none = "none"
+[[main]]
+pre = "linkedin"
+url = "https://www.linkedin.com/in/emre-canik/"
+identifier = "linkedin"
+weight = 20
+
+[[main]]
+pre = "youtube"
+url = "https://www.youtube.com/channel/UCK8Gbs97ut8CS_PdPMFW4bg"
+identifier = "youtube"
+weight = 30
+
+[[main]]
+name = "resume"
+pageRef = "resume"
+identifier = "resume"
+weight = 40
+
+[[main]]
+name = "projects"
+pageRef = "/categories/project/"
+identifier = "projects"
+weight = 50
+
+# Programming category
+[[main]]
+name = "programlama"
+pageRef = "/categories/programlama/"
+identifier = "programlama"
+weight = 60
+
+# Programming -> Python category
+[[main]]
+name = "python eğitimi"
+parent = "programlama"
+pageRef = "/categories/programlama/python-egitimi/"
+identifier = "python-egitimi"
+weight = 70
+
+# Programming -> Python -> Basic Concepts
+[[main]]
+name = "başlangıç seviyesi: temel kavramlar"
+parent = "python eğitimi"
+pageRef = "/categories/programlama/python-egitimi/baslangic-seviyesi-temel-kavramlar/"
+identifier = "baslangic-seviyesi-temel-kavramlar"
+weight = 80
+
+# Programming -> Python -> Functions and Modules
+[[main]]
+name = "temel seviye: fonksiyonlar ve modüller"
+parent = "python eğitimi"
+pageRef = "/categories/programlama/python-egitimi/temel-seviye-fonksiyonlar-ve-moduller/"
+identifier = "temel-seviye-fonksiyonlar-ve-moduller"
+weight = 90
+
+# Programming -> Python -> Intermediate: Introduction to Advanced Topics
+[[main]]
+name = "orta seviye: ileri konulara giriş"
+parent = "python eğitimi"
+pageRef = "/categories/programlama/python-egitimi/orta-seviye-ileri-konulara-giris/"
+identifier = "orta-seviye-ileri-konulara-giris"
+weight = 100
+
+# Programming -> Python -> Intermediate: OOP Applications
+[[main]]
+name = "orta seviye: oop uygulamaları"
+parent = "python eğitimi"
+pageRef = "/categories/programlama/python-egitimi/orta-seviye-oop-uygulamalari/"
+identifier = "orta-seviye-oop-uygulamalari"
+weight = 110
+
+# Programming -> Python -> Advanced: Advanced Topics
+[[main]]
+name = "ileri seviye: gelişmiş konular"
+parent = "python eğitimi"
+pageRef = "/categories/programlama/python-egitimi/ileri-seviye-gelismis-konular/"
+identifier = "ileri-seviye-gelismis-konular"
+weight = 120
+
+# Programming -> Software Tools and Applications
+[[main]]
+name = "yazılım araçları ve kullanışlı uygulamalar"
+parent = "programlama"
+pageRef = "/categories/programlama/yazilim-araclari-ve-kulllanisli-uygulamalar/"
+identifier = "yazilim-araclari-ve-kulllanisli-uygulamalar"
+weight = 130
+
+# Programming -> Guides and Tutorials
+[[main]]
+name = "rehberler ve tutoriallar"
+parent = "programlama"
+pageRef = "/categories/programlama/rehberler-ve-tutoriallar/"
+identifier = "rehberler-ve-tutoriallar"
+weight = 140
+
+# Programming -> Guides and Tutorials -> Programming Fundamentals
+[[main]]
+name = "programlama temelleri"
+parent = "rehberler ve tutoriallar"
+pageRef = "/categories/programlama/rehberler-ve-tutoriallar/programlama-temelleri/"
+identifier = "programlama-temelleri"
+weight = 150
+
+# Technology and News
+[[main]]
+name = "teknoloji ve haberler"
+pageRef = "/categories/teknoloji-ve-haberler/"
+identifier = "teknoloji-ve-haberler"
+weight = 160
+
+# Technology and News -> AI and Machine Learning
+[[main]]
+name = "yapay zeka ve makine öğrenimi"
+parent = "teknoloji ve haberler"
+pageRef = "/categories/teknoloji-ve-haberler/yapay-zeka-ve-makine-ogrenimi/"
+identifier = "yapay-zeka-ve-makine-ogrenimi"
+weight = 170
+
+# Technology and News -> Tech Trends and Innovations
+[[main]]
+name = "teknoloji trendleri ve inovasyonlar"
+parent = "teknoloji ve haberler"
+pageRef = "/categories/teknoloji-ve-haberler/teknoloji-trendleri-ve-inovasyonlar/"
+identifier = "teknoloji-trendleri-ve-inovasyonlar"
+weight = 180
+
+# Technology and News -> Current Software and Technology News
+[[main]]
+name = "güncel yazılım ve teknoloji haberleri"
+parent = "teknoloji ve haberler"
+pageRef = "/categories/teknoloji-ve-haberler/guncel-yazilim-ve-teknoloji-haberleri/"
+identifier = "guncel-yazilim-ve-teknoloji-haberleri"
+weight = 190

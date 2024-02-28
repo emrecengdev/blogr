@@ -1,18 +1,18 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Emreceng"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "emre.png"
+logo = ""
 description = "site açıklaması"
 
 [author]
-name = "Emreceng"
+name = "Emre Canik"
 image = "emre.png"
 headline = "Data scientist / DevOps / SwiftDev"
 bio = "benim bio"

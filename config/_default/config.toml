@@ -15,7 +15,87 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 
-# googleAnalytics = "G-XXXXXXXXX"
+#  googleAnalytics = "G-XXXXXXXXX"
+
+
+
+
+
+
+[[menu.main]]
+  name = "Ana Sayfa"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Programlama"
+  url = "/categories/programlama/"
+  weight = 2
+  identifier = "programlama"
+
+  [[menu.main]]
+    name = "Python Eğitimi"
+    url = "/categories/programlama/python-egitimi/"
+    weight = 1
+    parent = "programlama"
+    identifier = "python-egitimi"
+
+    [[menu.main]]
+      name = "Başlangıç Seviyesi: Temel Kavramlar"
+      url = "/categories/programlama/python-egitimi/baslangic-seviyesi/"
+      weight = 1
+      parent = "python-egitimi"
+
+    [[menu.main]]
+      name = "Temel Seviye: Fonksiyonlar ve Modüller"
+      url = "/categories/programlama/python-egitimi/temel-seviye/"
+      weight = 2
+      parent = "python-egitimi"
+
+  [[menu.main]]
+    name = "Yazılım Araçları ve Kullanışlı Uygulamalar"
+    url = "/categories/programlama/yazilim-araclari/"
+    weight = 2
+    parent = "programlama"
+
+  [[menu.main]]
+    name = "Rehberler ve Tutoriallar"
+    url = "/categories/programlama/rehberler-tutoriallar/"
+    weight = 3
+    parent = "programlama"
+    identifier = "rehberler-tutoriallar"
+
+    [[menu.main]]
+      name = "Programlama Temelleri"
+      url = "/categories/programlama/rehberler-tutoriallar/programlama-temelleri/"
+      weight = 1
+      parent = "rehberler-tutoriallar"
+
+[[menu.main]]
+  name = "Teknoloji ve Haberler"
+  url = "/categories/teknoloji-ve-haberler/"
+  weight = 3
+  identifier = "teknoloji-ve-haberler"
+
+  [[menu.main]]
+    name = "Yapay Zeka ve Makine Öğrenimi"
+    url = "/categories/teknoloji-ve-haberler/yapay-zeka/"
+    weight = 1
+    parent = "teknoloji-ve-haberler"
+
+  [[menu.main]]
+    name = "Teknoloji Trendleri ve İnovasyonlar"
+    url = "/categories/teknoloji-ve-haberler/teknoloji-trendleri/"
+    weight = 2
+    parent = "teknoloji-ve-haberler"
+
+  [[menu.main]]
+    name = "Güncel Yazılım ve Teknoloji Haberleri"
+    url = "/categories/teknoloji-ve-haberler/guncel-haberler/"
+    weight = 3
+    parent = "teknoloji-ve-haberler"
+
+
 
 [imaging]
   anchor = 'Center'
