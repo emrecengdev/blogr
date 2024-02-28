@@ -43,8 +43,8 @@ weight = 60
 [[main]]
 name = "python eğitimi"
 parent = "programlama"
-url = "python"
-identifier = "python-egitimi"
+pageRef = "python"
+identifier = "python"
 weight = 70
 
 # Programming -> Software Tools and Applications
