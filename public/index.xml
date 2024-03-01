@@ -10,20 +10,10 @@
     <lastBuildDate>Wed, 28 Feb 2024 13:44:32 +0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ilkders</title>
-      <link>http://localhost:1313/python/ilkders/</link>
+      <link>http://localhost:1313/pythondersleri/ilkders/</link>
       <pubDate>Wed, 28 Feb 2024 13:44:32 +0300</pubDate>
       
-      <guid>http://localhost:1313/python/ilkders/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/resume/resume/</link>
-      <pubDate>Wed, 28 Feb 2024 03:07:27 +0300</pubDate>
-      
-      <guid>http://localhost:1313/resume/resume/</guid>
+      <guid>http://localhost:1313/pythondersleri/ilkders/</guid>
       <description></description>
       
     </item>
@@ -45,6 +35,16 @@
       
       <guid>http://localhost:1313/posts/python/</guid>
       <description>Temel Seviye Python x ders Python&amp;#39;un temellerini öğrenin Başlangıç ve Temeller: Bu bölümde, Python programlama diline giriş yaparak başlıyoruz.</description>
+      
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/posts/resume/</link>
+      <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
+      
+      <guid>http://localhost:1313/posts/resume/</guid>
+      <description>Technical Skills Java Spring SpringBoot Spring Cloud Spring Batch JPA Microservices Python SSIS Docker Linux/Bash SQL Server Jenkins DevOps Temel Seviye Python x ders Python&amp;#39;un temellerini öğrenin Başlangıç ve Temeller: Bu bölümde, Python programlama diline giriş yaparak başlıyoruz.</description>
       
     </item>
     
