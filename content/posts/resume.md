@@ -22,75 +22,19 @@ scrollToTop = true
 +++
 ---
 
-## Technical Skills
-
-<!-- the span css has been copied from the `Tags` styles -->
-
-<div class="technical-skills-container">
-    <div class="technical-skills-container-inner">
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            C
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Python
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            C#
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Html/CSS
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            JavaScript
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Kotlin
-        </span>
-         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Swift
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Microservices
-        </span>
-    </div>
-    <div class="technical-skills-container-inner">
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Data Structures
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Docker
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Linux/Bash
-        </span>
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            SQL Server
-        </span>
-              <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            MATLAB
-        </span>
-        <span class="technical-skill-span technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            DevOps
-        </span>
-    </div>
-    <div class="technical-skills-container-inner">
-    </div>
-</div>
-
 ---
 
-# Technical Skills
+## Technical Skills 🔧
 
 <code>C</code> <code>Python</code> <code>C#</code> <code>Html/CSS</code> <code>JavaScript</code> <code>Kotlin</code> <code>Swift</code> <code>Microservices</code> <code>Data Structures</code> <code>Docker</code> <code>Linux/Bash</code> <code>SQL Server</code> <code>MATLAB</code> <code>DevOps</code>
 
 ---
 
-# Experience  👨‍💻
- ç
+##  Experience  👨‍💻
 
 {{< timeline >}}
 
-{{< timelineItem icon="github" header="Freelancer" badge="2022 - Presebt" subheader="Data Scientist & Automation Specialist" >}}
+{{< timelineItem icon="Code" header="Freelancer" badge="2022 - Present" subheader="Data Scientist & Automation Specialist" >}}
 <ul>
   <li> <code>Automation & Scripting:</code> Developed multiple projects focusing on automating tasks and scripting using the Python programming language. This work allowed me to apply and reinforce my coding skills in practical, client-oriented tasks. 
 </li>
@@ -116,7 +60,17 @@ scrollToTop = true
 
 # Education 👨‍🎓
 
-| denem | sdfdfs | 123132 |
+{{< typeit 
+  tag=h3
+  speed=50
+  breakLines=false
+  loop=true
+>}}
+“All real education is the architecture of the soul.” —William Bennett
+{{< /typeit >}}
+
+
+| School | Degree | Date |
 | --- | --- | --- |
-| fsdfds | gsddsgd | 32423 |
-|  |  |  |
+| Istanbul Gelişim University | Computer Engineering | 2020 - 2025 |
+| Ludwig Maximilian University Of Munich | Biochemistry / Biomechanics | 2016 - 2020 |
