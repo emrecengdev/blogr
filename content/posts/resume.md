@@ -46,14 +46,14 @@ scrollToTop = true
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             Kotlin
         </span>
-    </div>
-    <div class="technical-skills-container-inner">
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
+         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             Swift
         </span>
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             Microservices
         </span>
+    </div>
+    <div class="technical-skills-container-inner">
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             Data Structures
         </span>
@@ -66,14 +66,14 @@ scrollToTop = true
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             SQL Server
         </span>
-    </div>
-    <div class="technical-skills-container-inner">
-        <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
+              <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             MATLAB
         </span>
         <span class="technical-skill-span technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             DevOps
         </span>
+    </div>
+    <div class="technical-skills-container-inner">
     </div>
 </div>
 
