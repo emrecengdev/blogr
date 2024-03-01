@@ -2,7 +2,7 @@
 title = 'Resume'
 date = 2024-02-28T02:15:06+03:00
 categories = []
-draft = true
+draft = false
 
 showDate = false
 showDateUpdated = false
@@ -20,17 +20,25 @@ showLikes = false
 scrollToTop = true
 
 +++
----
+
+{{< typeit 
+  tag=h1
+  lifeLike=true
+>}}
+“Those who can imagine anything, can create the impossible.”
+― Alan Turing
+{{< /typeit >}}
 
 ---
 
-## Technical Skills 🔧
+
+# Technical Skills 🔧
 
 <code>C</code> <code>Python</code> <code>C#</code> <code>Html/CSS</code> <code>JavaScript</code> <code>Kotlin</code> <code>Swift</code> <code>Microservices</code> <code>Data Structures</code> <code>Docker</code> <code>Linux/Bash</code> <code>SQL Server</code> <code>MATLAB</code> <code>DevOps</code>
 
 ---
 
-##  Experience  👨‍💻
+#  Experience  👨‍💻
 
 {{< timeline >}}
 
@@ -61,10 +69,8 @@ scrollToTop = true
 # Education 👨‍🎓
 
 {{< typeit 
-  tag=h3
-  speed=50
-  breakLines=false
-  loop=true
+  tag=h1
+  lifeLike=true
 >}}
 “All real education is the architecture of the soul.” —William Bennett
 {{< /typeit >}}
@@ -74,3 +80,19 @@ scrollToTop = true
 | --- | --- | --- |
 | Istanbul Gelişim University | Computer Engineering | 2020 - 2025 |
 | Ludwig Maximilian University Of Munich | Biochemistry / Biomechanics | 2016 - 2020 |
+
+# Professional Certifications ✍️
+
+{{< typeit 
+  tag=h1
+  lifeLike=true
+>}}
+"Self-education is, I firmly believe, the only kind of education there is." - Isaac Asimov
+{{< /typeit >}}
+
+| Certificate | Institution | Date |
+| --- | --- | --- |
+| CS50's Introduction to Computer Science | HarvardX | |
+| CS50's AP Computer Science Principles | HarvardX | |
+| Computer Science for Python Programming | HarvardX | |
+| Introduction to Data Science with Python | HarvardX | |

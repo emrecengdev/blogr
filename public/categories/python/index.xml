@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Emreceng</title>
-    <link>http://localhost:55008/categories/python/</link>
+    <link>http://localhost:58538/categories/python/</link>
     <description>Recent content in Python on Emreceng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Emre Canik</copyright>
-    <lastBuildDate>Wed, 28 Feb 2024 02:15:06 +0300</lastBuildDate><atom:link href="http://localhost:55008/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Feb 2024 02:15:06 +0300</lastBuildDate><atom:link href="http://localhost:58538/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programlamakategorideneme</title>
-      <link>http://localhost:55008/programlama/programlamakategorideneme/</link>
+      <link>http://localhost:58538/programlama/programlamakategorideneme/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:55008/programlama/programlamakategorideneme/</guid>
+      <guid>http://localhost:58538/programlama/programlamakategorideneme/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Python Eğitimi</title>
-      <link>http://localhost:55008/posts/python/</link>
+      <link>http://localhost:58538/posts/python/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:55008/posts/python/</guid>
+      <guid>http://localhost:58538/posts/python/</guid>
       <description>Temel Seviye Python x ders Python&amp;#39;un temellerini öğrenin Başlangıç ve Temeller: Bu bölümde, Python programlama diline giriş yaparak başlıyoruz.</description>
       
     </item>
     
     <item>
       <title>Python ilk ders</title>
-      <link>http://localhost:55008/posts/python-ilk-ders/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</link>
+      <link>http://localhost:58538/posts/python-ilk-ders/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:55008/posts/python-ilk-ders/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</guid>
+      <guid>http://localhost:58538/posts/python-ilk-ders/</guid>
       <description>Warning!</description>
       
     </item>

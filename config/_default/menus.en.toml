@@ -6,29 +6,29 @@ none = "none"
 pre = "github"
 url = "https://github.com/emrecengdev"
 identifier = "github"
-weight = 10
+weight = 200
 
 [[main]]
 pre = "linkedin"
 url = "https://www.linkedin.com/in/emre-canik/"
 identifier = "linkedin"
-weight = 20
+weight = 210
 
 [[main]]
 pre = "youtube"
 url = "https://www.youtube.com/channel/UCK8Gbs97ut8CS_PdPMFW4bg"
 identifier = "youtube"
-weight = 30
+weight = 220
 
 [[main]]
 name = "resume"
-pageRef = "resume"
+pageRef = "resume/resume.md"
 identifier = "resume"
 weight = 40
 
 [[main]]
 name = "projects"
-pageRef = "/categories/project/"
+pageRef = "projects/projects.md"
 identifier = "projects"
 weight = 50
 

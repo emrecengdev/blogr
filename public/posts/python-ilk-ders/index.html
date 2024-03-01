@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58538&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Python ilk ders &middot; Emreceng</title>
+  <meta name="title" content="Python ilk ders &middot; Emreceng" />
+  
+  <meta name="description" content="a description" />
+  <meta name="keywords" content="example, tag, " />
+  
+  
+  <link rel="canonical" href="http://localhost:58538/posts/python-ilk-ders/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.6a3200c818275f46147b8d71313b3d33b6a807a1249e24dc413df849acdf27e9e92aa7f38fef0b4a9615a63acf81e113f53ea6f9e32261ec9e4dcb118fa3b34e.css"
+    integrity="sha512-ajIAyBgnX0YUe41xMTs9M7aoB6EkniTcQT34SazfJ&#43;npKqfzj&#43;8LSpYVpjrPgeET9T6m&#43;eMiYeyeTcsRj6OzTg==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.aa2a80d938ad305204df2c99e1dc0cde8fee122a308e9c8bf7f4cf45d42a26bbc471f623fe1920193f2a41c5a969485e6824629816dcbc549d4e57c3f9206d42.js"
+    integrity="sha512-qiqA2TitMFIE3yyZ4dwM3o/uEiowjpyL9/TPRdQqJrvEcfYj/hkgGT8qQcWpaUheaCRimBbcvFSdTlfD&#43;SBtQg==" data-copy="" data-copied=""></script>
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Python ilk ders" />
+<meta property="og:description" content="a description" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:58538/posts/python-ilk-ders/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-24T00:00:00+00:00" />
+
+
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Python ilk ders"/>
+<meta name="twitter:description" content="a description"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Python ilk ders",
+    "headline": "Python ilk ders",
+    "description": "a description",
+    "abstract": "Warning!",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:58538\/posts\/python-ilk-ders\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Emre Canik"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-02-24T00:00:00\u002b00:00",
+    "datePublished": "2024-02-24T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-02-24T00:00:00\u002b00:00",
+    
+    "keywords": ["example","tag"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1068"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="Emre Canik" />
+  
+  
+  
+  <link href="https://link-to-some-website.com/" rel="me" />
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="/lib/typeit/typeit.umd.js" integrity=""></script>
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Emreceng</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/resume/resume/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        resume
+    </p>
+</a>
+
+
+            
+            
+  <a href="/projects/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        projects
+    </p>
+</a>
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a  href="/categories/programlama/"   class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      programlama
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/posts/python/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            python eğitimi
+          </p>
+        </a>
+        
+        <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            araçlar
+          </p>
+        </a>
+        
+        <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            rehberler
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        blog
+    </p>
+</a>
+
+
+            
+            
+  <a href="https://github.com/emrecengdev"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+            
+            
+  <a href="https://www.linkedin.com/in/emre-canik/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+            
+            
+  <a href="https://www.youtube.com/channel/UCK8Gbs97ut8CS_PdPMFW4bg"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <span >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+  </span>
+
+
+    </span>
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        
+    </p>
+</a>
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/resume/resume/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            resume
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/projects/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            projects
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                     
+  <li class="mt-1">
+    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            programlama
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/posts/python/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            python eğitimi
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            araçlar
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            rehberler
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            blog
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://github.com/emrecengdev"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://www.linkedin.com/in/emre-canik/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://www.youtube.com/channel/UCK8Gbs97ut8CS_PdPMFW4bg"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+  </span>
+
+
+        </div>
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+ 
+  
+   
+  
+ 
+
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/dd@2x_huca3ddda38317b19f48b7344dec954e67_18128958_1200x0_resize_box_3.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Python ilk ders
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-02-24 00:00:00 &#43;0000 UTC">24 February 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1068 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+<div class="flex author">
+  
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Emre Canik" src="/emre_hub43691e3849564857959ff83ab5115ba_1790587_192x192_fill_box_center_3.png" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Emre Canik
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">benim bio</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://link-to-some-website.com/"
+          target="_blank"
+          aria-label="Link"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+    
+
+    
+
+    
+
+    
+    <div class="mb-5"></div>
+    
+  
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#python-deep-dive">Python Deep Dive</a></li>
+    <li><a href="#temeller">Temeller</a>
+      <ul>
+        <li><a href="#python-kurulumu-ve-çalışma-ortamı">Python Kurulumu ve Çalışma Ortamı</a>
+          <ul>
+            <li><a href="#python-kurulumu">Python Kurulumu</a></li>
+            <li><a href="#ide-ve-metin-editörleri">Ide ve Metin Editörleri</a></li>
+          </ul>
+        </li>
+        <li><a href="#temel-python-söz-dizimi---syntax">Temel Python Söz dizimi - syntax</a>
+          <ul>
+            <li><a href="#-yorum">→ Yorum</a></li>
+            <li><a href="#değişkenler-ve-veri-türleri">Değişkenler ve veri türleri</a></li>
+            <li><a href="#-string-veri-tipi-">→ String Veri tipi :</a></li>
+            <li><a href="#-print-fonksiyonu">→ Print() Fonksiyonu</a></li>
+            <li><a href="#-string-manipülasyonu">→ String Manipülasyonu</a></li>
+            <li><a href="#-input-fonksiyonu">→ Input() Fonksiyonu</a></li>
+            <li><a href="#-len-fonksiyonu">→ len() Fonksiyonu</a></li>
+            <li><a href="#-integer-veri-tipi">→ Integer Veri tipi</a></li>
+            <li><a href="#-float-veri-tipi">→ Float Veri tipi</a></li>
+            <li><a href="#-sayısal-veri-tiplerinin-manipülasyonu--matematiksel-operatörler">→ Sayısal Veri tiplerinin Manipülasyonu / Matematiksel Operatörler</a></li>
+          </ul>
+        </li>
+        <li><a href="#değişken-adlandırma">Değişken Adlandırma</a>
+          <ul>
+            <li><a href="#temel-operatörler">Temel Operatörler</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#python-deep-dive">Python Deep Dive</a></li>
+    <li><a href="#temeller">Temeller</a>
+      <ul>
+        <li><a href="#python-kurulumu-ve-çalışma-ortamı">Python Kurulumu ve Çalışma Ortamı</a>
+          <ul>
+            <li><a href="#python-kurulumu">Python Kurulumu</a></li>
+            <li><a href="#ide-ve-metin-editörleri">Ide ve Metin Editörleri</a></li>
+          </ul>
+        </li>
+        <li><a href="#temel-python-söz-dizimi---syntax">Temel Python Söz dizimi - syntax</a>
+          <ul>
+            <li><a href="#-yorum">→ Yorum</a></li>
+            <li><a href="#değişkenler-ve-veri-türleri">Değişkenler ve veri türleri</a></li>
+            <li><a href="#-string-veri-tipi-">→ String Veri tipi :</a></li>
+            <li><a href="#-print-fonksiyonu">→ Print() Fonksiyonu</a></li>
+            <li><a href="#-string-manipülasyonu">→ String Manipülasyonu</a></li>
+            <li><a href="#-input-fonksiyonu">→ Input() Fonksiyonu</a></li>
+            <li><a href="#-len-fonksiyonu">→ len() Fonksiyonu</a></li>
+            <li><a href="#-integer-veri-tipi">→ Integer Veri tipi</a></li>
+            <li><a href="#-float-veri-tipi">→ Float Veri tipi</a></li>
+            <li><a href="#-sayısal-veri-tiplerinin-manipülasyonu--matematiksel-operatörler">→ Sayısal Veri tiplerinin Manipülasyonu / Matematiksel Operatörler</a></li>
+          </ul>
+        </li>
+        <li><a href="#değişken-adlandırma">Değişken Adlandırma</a>
+          <ul>
+            <li><a href="#temel-operatörler">Temel Operatörler</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Warning!</strong> This action is destructive!</span>
+</div>
+
+
+
+<h1 class="relative group">Python Deep Dive 
+    <div id="python-deep-dive" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#python-deep-dive" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+
+
+<h1 class="relative group">Temeller 
+    <div id="temeller" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#temeller" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+
+
+<h2 class="relative group">Python Kurulumu ve Çalışma Ortamı 
+    <div id="python-kurulumu-ve-%C3%A7al%C4%B1%C5%9Fma-ortam%C4%B1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#python-kurulumu-ve-%C3%A7al%C4%B1%C5%9Fma-ortam%C4%B1" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Python Kurulumu 
+    <div id="python-kurulumu" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#python-kurulumu" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+
+<h3 class="relative group">Ide ve Metin Editörleri 
+    <div id="ide-ve-metin-edit%C3%B6rleri" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ide-ve-metin-edit%C3%B6rleri" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+
+<h2 class="relative group">Temel Python Söz dizimi - syntax 
+    <div id="temel-python-s%C3%B6z-dizimi---syntax" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#temel-python-s%C3%B6z-dizimi---syntax" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<h1 id="typeit-c664ec496c41d279a5ce030e1faee9bf"></h1>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-c664ec496c41d279a5ce030e1faee9bf", {
+        strings: ["","Python'un sözdizimi, diğer programlama"," dillerine göre daha okunabilir ve basittir."," ",""],
+        speed:  100 ,
+        lifeLike:  true ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      }).go();
+    });
+</script>
+<p>Python&rsquo;un sözdizimi, diğer programlama dillerine göre daha okunabilir ve basittir.</p>
+
+
+<h3 class="relative group">→ Yorum 
+    <div id="-yorum" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-yorum" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Yorumlar, kodun okunabilirliğini arttırmak, kod içinde açıklamalar yapmak için kullanılır. Kod blokları gibi işleme konulmaz, yok sayılırlar</p>
+<div class="mermaid" align="center">
+  
+graph LR;
+A[Lemons]-->B[Lemonade];
+B-->C[Profit]
+
+</div>
+
+<aside>
+💡 Tek satır yorum : # işareti ile başlar
+</aside>
+<div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  #Örnek python yorum satırı.
+</div>
+
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    >#Örnek python yorum satırı.</span>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#Örnek python yorum satırı.</span>
+</span></span></code></pre></div><aside>
+💡 Çok satırlı yorumlar ise : “”” yada ‘’’ işaretleri ile çevrildir. Bu yapı stringlerde de kullanılır.
+</aside>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">çok satırlı
+</span></span></span><span class="line"><span class="cl"><span class="s2">python
+</span></span></span><span class="line"><span class="cl"><span class="s2">yorumu.
+</span></span></span><span class="line"><span class="cl"><span class="s2">Bu yapıyı kullanıyoruz çünkü ide de alt satıra geçtiğimizi görmüş olmak yeterli
+</span></span></span><span class="line"><span class="cl"><span class="s2">değildir. Alt satıra geçtiğimizi bazı imgelerle belirtmemiz gereklidir.
+</span></span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;</span>
+</span></span></code></pre></div>
+
+<h3 class="relative group">Değişkenler ve veri türleri 
+    <div id="de%C4%9Fi%C5%9Fkenler-ve-veri-t%C3%BCrleri" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#de%C4%9Fi%C5%9Fkenler-ve-veri-t%C3%BCrleri" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Python’da veri türlerini 4 başlıkta açıklayabiliriz.</p>
+<p>int : integer → Tam sayılar.</p>
+<p>float : float → Virgüllü / ondalık sayılar.</p>
+<p>str : string → Metinsel ifadeler.</p>
+<p>bool : boolean → Mantıksal (Doğru/yanlış).</p>
+<p>Kullandığımız verinin ne tipte olduğunu bilmek son derece önemlidir. Çünkü yapacağımız işlemler buna bağlıdır. Örneğin “+” operatörünü sayısal veriler ile kullanırsak toplama işlemi gerçekleşir ancak string ifadeleriyle kullandığımızda iki değer ardarda yazılarak birleştirilir.</p>
+
+
+<h3 class="relative group">→ String Veri tipi : 
+    <div id="-string-veri-tipi-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-string-veri-tipi-" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Programlama dilinde metin parçaları string olarak adlandırılır. Her bir kelime de stringdir tek bir harf de. Stringler karakter dizilerilerdir.</p>
+<p>Stringler birkaç farklı şekilde tanımlanabilirler.</p>
+<aside>
+💡 Tek Tırnak kullanarak :
+</aside>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="s1">&#39;String ifadesi&#39;</span>
+</span></span></code></pre></div><aside>
+💡 Çift tırnak kullanarak :
+</aside>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="s2">&#34;String ifadesi&#34;</span>
+</span></span></code></pre></div><aside>
+💡 3lü tırnak yapısı
+</aside>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">string 
+</span></span></span><span class="line"><span class="cl"><span class="s2">ifadesi
+</span></span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">string 
+</span></span></span><span class="line"><span class="cl"><span class="s1">ifadesi
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;&#39;&#39;</span>
+</span></span></code></pre></div><p>İlk iki yöntemde bir değişiklik yokken, 3lü tırnak yapısında satırları kullandığımıza dikkat edin. Bu örnekleri az önce öğrendiğimiz yorum ile karıştırmayın. Bunlar programlamada kullanacağımız string değişkenlerinin içerikleri olacak veriler. Örnek üzerinde görmeden önce print() fonksiyonunu öğrenelim.</p>
+
+
+<h3 class="relative group">→ Print() Fonksiyonu 
+    <div id="-print-fonksiyonu" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-print-fonksiyonu" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Kısaca yazıcı gibi düşünebiliriz. İçerisine girilen değerin çıktısını verir. Ancak dikkat edilmesi gerekilen nokta içeri veri girerken belli başlı kurallara uymamız gerektiğidir.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>Programlamada işlem sırası her zaman sağdan sola doğrudur. Çift tırnak arasındaki Hello World! yazısı önce okunur ve tırnak yapısı sayesinde string tipinde olduğu anlaşılır.  Ardından print fonksiyonu bize şu şekilde çıktıyı verir ;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">Hello</span> <span class="n">World</span><span class="err">!</span>
+</span></span></code></pre></div><p>Peki neden hem “ hemde ‘ kullanımı var ? İkiside aynı işe yarıyorsa ikisinin de olması saçma değil mi ?</p>
+<p>Gelin bunu bir örnekle pekiştirelim.</p>
+<p>Print fonksiyonu ile String birleştirme işlemi “+” operatörü ile gerçekleştirilir yazdırmak istiyorum. Hadi deneyin bakalım.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled.png" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>Görüldüğü üzere + işareti kayboldu. Peki neden ? Veri tiplerini anlatırken bundan bahsetmiştim aslında. + operatörü stringleri ardarda birleştirmek için kullanılır. Stringler ise tırnak yapısı ile tanımlanır. Yazdığımız kodda mor ile işaretli kısım bir string , yeşil ile işaretli kısım ise başka bir string olarak anlaşıldı. Ve aradaki operatör + olduğu için birleştirildi.  Peki bir yolu yok mu bu karmaşıklığı çözmenin ? Farklı tırnak yapıları belki o kadar da kullanışsız değildir ha ?</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Untitled%201.png" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>Bakın ne oldu. Tek tırnak ile başlayan string’imiz tek tırnak ile bitti. Böylece karmaşıklık kalmadı. String içerisinde başka bir string olamayacağı için + nın yakınındaki tırnaklar belirteç olarak tanımlanmadı. Böylece istediğimiz çıktıyı almış olduk.</p>
+<aside>
+💡 Boşluk karakteri de bir stringdir. Çünkü o da yer kaplar ihmal edilemez. “a” ne ise “ “ da odur.
+</aside>
+<aside>
+💡 “” boş bir karakter dizisi iken. “    “ içerisinde boşluk barındıran bir karakter dizisidir. Bu farkı unutmayın.
+</aside>
+
+
+<h3 class="relative group">→ String Manipülasyonu 
+    <div id="-string-manip%C3%BClasyonu" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-string-manip%C3%BClasyonu" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<aside>
+💡 \n operatörü kendisinden sonra gelen ifadelerin alt satıra geçmesini sağlar.
+</aside>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%202.png" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<aside>
+💡 + operatörü metinleri ardarda yazarak birleştirir.
+</aside>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%203.png" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>String ifadelerinin sonunda yada başında boşluk bırakmadığımızda yazımda oluşan duruma dikkat edin. Kimi zaman kelimeleri boşluklu, kimi zaman bitişik yazdırmamız gerekecek.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%204.png" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>Peki + operatörü olmadan nasıl birleşti bu stringler ? Python’un özelliklerinden biri. Dikkat edin her dilin kendine özgü syntaxleri vardır. Her özellik her dilde olmayabilir. Ancak + işareti kullandığımızda kodlarımız daha okunaklı ve düzenli oluyor.</p>
+<aside>
+💡 * Çarpma operatörü ile stringler birden fazla kez yanyana yazılabilir.
+</aside>
+
+
+<h3 class="relative group">→ Input() Fonksiyonu 
+    <div id="-input-fonksiyonu" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-input-fonksiyonu" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Input fonksiyonu için şu benzetmeyi yapabiliriz. Print fonksiyonu bir yazıcının çıktı işleviyse input ise tarayıcı işlevidir. Kullanıcıdan veri almamızı sağlar.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled.jpeg" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>Program önce yeşil kısımdaki input içeriğini bize verdi. Bizde değer olarak bizden istediğii adımızı yazdık. Ardından print fonksiyonunu bizden aldığı veri ile birlikte yazdırdı. Print fonksiyonu ile inputu birbirlerine + operatörü ile bağladık.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Adın ne ?&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>Bu örnekte ise name adında bir değişken oluşturduk. Input fonksiyonu önce Adın ne ? yazısını kullanıcıya gösterdi ve alınan değeri name değişkenine atadı.</p>
+
+
+<h3 class="relative group">→ len() Fonksiyonu 
+    <div id="-len-fonksiyonu" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-len-fonksiyonu" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>len fonskiyonu içerisine girilen dizinin uzunluğunu hesaplar. Giriş verisi stringdir çıkış verisi ise integerdır.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%205.png" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>1.Satırda sağdan sola doğru ilerleyelim. String değeri tırnak içerisinde olduğu için string değişkeni tanımlandı ve len fonksiyonu ile uzunluğu hesaplandı. Hesaplanan 6 değeri çıktı verildi.</p>
+<p>4.satırdaysa denemedeneme2 birleşimi sağlandı 13 değeri çıktı alındı.</p>
+<p>Değişkenler aslında her daim kullanılan bir kavramdır. Örneğin input fonksiyonunda girdiğimiz değer geçiçi bir değişkende depolanır. Compiler bu geçici değişkeni bizden gizler, ancak verinin ramde geçici depolanabilmesi için bir değişkene atanmış olması gerekmektedir. Değişkenlerin sözel sayısal vs farklı farklı türleri vardır. Üstte len fonksiyonu için a ve b gibi birkaç değişken kullanmıştık. Değeri değişkene atadığımızda bu değeri sonsuz kez kullanabiliriz. Oysa inputun içine girilen geçici değişken sadece tek kullanımlıktır.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%201.jpeg" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>name isminde bir değişken atayıp bu değişkende input tarafından girilen değeri tutacağız.</p>
+<p>Önceki bilgilerimizide birleştirirsek</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%202.jpeg" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>Görüldüğü üzere tek bir veri ile hem ismi yazdırdık hemde ismin uzunluğunu öğrendik.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%203.jpeg" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>Girilen isim name değişkenine atanır. Len fonksiyonunda girilen name değişkeninin uzunluğu hesaplanır ve length değişkenine atanır. Ardından length değişkeni çıktı alınır.</p>
+<p>Değişken atamak tıpkı bir telefon defteri gibidir. Bir numara kaydedildiğinde tekrar tekrar her amaçla kullanılabilir.</p>
+<p>Adındanda anlaşılabileceği gibi değişkenler yani variable değiştirilebilir.</p>
+
+
+<h3 class="relative group">→ Integer Veri tipi 
+    <div id="-integer-veri-tipi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-integer-veri-tipi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Tam sayılardan oluşan veri tipleridir.</p>
+
+
+<h3 class="relative group">→ Float Veri tipi 
+    <div id="-float-veri-tipi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-float-veri-tipi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Virgüllü sayılardan oluşan veri tipleridir.</p>
+
+
+<h3 class="relative group">→ Sayısal Veri tiplerinin Manipülasyonu / Matematiksel Operatörler 
+    <div id="-say%C4%B1sal-veri-tiplerinin-manip%C3%BClasyonu--matematiksel-operat%C3%B6rler" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#-say%C4%B1sal-veri-tiplerinin-manip%C3%BClasyonu--matematiksel-operat%C3%B6rler" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="Python%20Deep%20Dive%201fe1219d4de14d25954602f59ffc9228/Untitled%204.jpeg" alt="Untitled" />
+      
+    </figure>
+  
+
+</p>
+<p>input ile kullanıcıdan verileri aldık. A değişkeni : 3 , B değişkeni ise : 5 girdisini aldı. İki variable’ın değerlerini takaslamak istiyoruz bu yüzden swap için kullanacağımız C isimli bir variable oluşturduk. Aktarım tıpkı fonksiyonlardaki gibi sağdan soladır. A değeri C ye atandı. B’nin değerini A’ya atadık. Sırada A’nın orjinal değerini B’ye aktarmak kaldı. A’nın orjinal değerini C’de yedeklemiştik. Onuda B’ye aktardık.</p>
+<p>Bunu a bardağındaki kahveyi b bardağındaki çay ile değiştirmek gibi düşünebiliriz. Aktarım için bir swap bardağına ihtiyacımız olacak.</p>
+
+
+<h2 class="relative group">Değişken Adlandırma 
+    <div id="de%C4%9Fi%C5%9Fken-adland%C4%B1rma" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#de%C4%9Fi%C5%9Fken-adland%C4%B1rma" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Değişken adı tek bir kelimeden oluşmaktadır. Yani birden fazla kelime arada boşluk olacak şekilde yanyana gelemez. Örneğin user name gibi. user_name olabilir. user_Name olamaz. Caps’e dikkat.</p>
+<p>Sayılar değişken isimlerinin başında yer alamaz. 1number olamaz, number1 olabilir.</p>
+<p>Fonksiyon isimleri değişken adları olamaz, karışıklığa yol açar. Örneğin print, input gibi</p>
+
+
+<h3 class="relative group">Temel Operatörler 
+    <div id="temel-operat%C3%B6rler" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#temel-operat%C3%B6rler" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+        </div>
+                
+        
+
+        
+
+          
+      </div>
+     
+    
+     <script>
+        var oid = "views_posts\/python-ilk-ders\/index.md"
+        var oid_likes = "likes_posts\/python-ilk-ders\/index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >2024'te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-01-14 07:07:07 &#43;0100 &#43;0100">14 January 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/1708759923800-new-article/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >deneme yazısı</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-02-24 00:00:00 &#43;0000 UTC">24 February 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Emre Canik
+    </p>
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  
+  
+</footer><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:58538/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
