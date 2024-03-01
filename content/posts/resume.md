@@ -55,7 +55,7 @@ scrollToTop = true
             Microservices
         </span>
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            SSIS
+            Data Structures
         </span>
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             Docker
@@ -69,7 +69,7 @@ scrollToTop = true
     </div>
     <div class="technical-skills-container-inner">
         <span class="technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
-            Jenkins
+            MATLAB
         </span>
         <span class="technical-skill-span technical-skill-span rounded-md border border-primary-400 px-1 py-[1px] text-sm font-normal text-primary-700 dark:border-primary-600 ">
             DevOps
