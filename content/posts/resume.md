@@ -79,43 +79,44 @@ scrollToTop = true
 
 ---
 
+# Technical Skills
+
+<code>C</code> <code>Python</code> <code>C#</code> <code>Html/CSS</code> <code>JavaScript</code> <code>Kotlin</code> <code>Swift</code> <code>Microservices</code> <code>Data Structures</code> <code>Docker</code> <code>Linux/Bash</code> <code>SQL Server</code> <code>MATLAB</code> <code>DevOps</code>
+
+---
+
+# Experience  👨‍💻
+ ç
 
 {{< timeline >}}
 
-{{< timelineItem icon="github" header="Temel Seviye Python" badge="x ders" subheader="Python'un temellerini öğrenin" >}}
+{{< timelineItem icon="github" header="Freelancer" badge="2022 - Presebt" subheader="Data Scientist & Automation Specialist" >}}
 <ul>
-  <li> Başlangıç ve Temeller: Bu bölümde, Python programlama diline giriş yaparak başlıyoruz. Programlamaya yeni başlayanlar için temel kavramları, veri tiplerini ve değişkenleri ele alıyoruz. Ayrıca, basit matematik işlemleri ve Python'un temel yapı taşları olan ifadeleri öğreneceğiz.</li>
-  <li> Fonksiyonlar ve Modüller: Temel seviyenin ikinci kısmında fonksiyonların nasıl tanımlandığını ve kullanıldığını öğreneceğiz. Yeniden kullanılabilir kod parçaları oluşturmanın önemi üzerinde duracağız ve Python'da yerleşik modüllerin nasıl etkin bir şekilde kullanılacağını keşfedeceğiz.</li>
+  <li> <code>Automation & Scripting:</code> Developed multiple projects focusing on automating tasks and scripting using the Python programming language. This work allowed me to apply and reinforce my coding skills in practical, client-oriented tasks. 
+</li>
+<li> 
+ <code>Machine Learning:</code> Engaged in various machine learning projects, utilizing predictive models and data analysis to derive actionable insights, enhance decision-making, and drive business outcomes.
+</li>
+<li> 
+ <code>Data Science:</code> Experienced in data science methodologies, including data exploration, preprocessing, and complex data visualizations to reveal underlying patterns and inform strategic decisions.
+</li>
+<li> 
+ <code>Client Projects:</code> Collaborated closely with clients to deliver tailored solutions in data analysis, visualization, and machine learning, ensuring client satisfaction and repeat business.
+</li>
+<li> 
+ <code>Community Engagement:</code> Actively participated in recruitment and external engagement events, contributing to the growth and development of the Fiverr community..</li>
 </ul>
 
-{{< button href="temel-seviye-python" target="_self" >}}
-Derslere git
-{{< /button >}}
-{{< /timelineItem >}}
 
-{{< timelineItem icon="github" header="Orta Seviye Python" badge="y ders" subheader="Python becerilerinizi geliştirin" >}}
-<ul>
-  <li> Nesne Yönelimli Programlama: Orta seviyede Python'un nesne yönelimli programlama (OOP) yönlerini keşfedeceğiz. Sınıflar, nesneler, miras ve polimorfizmin temellerini öğrenerek, kodlarımızı daha modüler ve yeniden kullanılabilir hale getireceğiz.</li>
-  <li> İleri Veri Yapıları: Veri yapıları konusundaki bilgimizi genişleteceğiz ve Python'un sağladığı ileri seviye veri yapılarını ve algoritmaları inceleyeceğiz. Listeler, demetler, kümeler ve sözlüklerle daha etkili çalışmayı öğreneceğiz.</li>
-</ul>
-
-{{< /timelineItem >}}
-
-{{< timelineItem icon="github" header="İleri Seviye Python" badge="z ders" subheader="Uzmanlık kazanın" >}}
-<ul>
-  <li> Gelişmiş Konseptler: İleri seviyede, dekoratörler, jeneratörler ve çoklu iş parçacıklı programlama gibi gelişmiş konseptlere odaklanacağız. Performansı ve etkinliği artıran teknikleri öğreneceğiz.</li>
-  <li> Web Geliştirme ve Veri Analizi: Flask ve Django gibi popüler web çatıları ile çalışacağız ve veri analizi için Pandas ve NumPy gibi kütüphaneleri kullanacağız. Gerçek dünya veri setleri üzerinde çalışarak, analitik becerilerimizi geliştireceğiz.</li>
-</ul>
-{{< /timelineItem >}}
-
-{{< timelineItem icon="github" header="Projeler" badge="Projeler" subheader="Teoriyi pratiğe dökün" >}}
-<ul>
-  <li> Gerçek Dünya Projeleri: Öğrendiklerimizi pekiştirmek için gerçek hayattan senaryolar kullanacağız. Katılımcılar, kendi web uygulamalarını ve veri bilimi projelerini baştan sona oluşturacaklar.</li>
-  <li> Portföy Oluşturma: Projelerimizi GitHub üzerinde portföy olarak sergileyeceğiz. Bu, öğrenme sürecimizi somut örneklerle desteklemek ve potansiyel işverenlere becerilerimizi göstermek için mükemmel bir fırsat olacak.</li>
-</ul>
 {{< /timelineItem >}}
 
 {{< /timeline >}}
 
+---
 
+# Education 👨‍🎓
 
+| denem | sdfdfs | 123132 |
+| --- | --- | --- |
+| fsdfds | gsddsgd | 32423 |
+|  |  |  |
