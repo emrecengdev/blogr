@@ -3,108 +3,114 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:62450/</loc>
+    <loc>http://localhost:52912/posts/deneme2/</loc>
+    <lastmod>2024-03-02T15:36:10+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:52912/</loc>
+    <lastmod>2024-03-02T15:36:10+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:52912/posts/</loc>
+    <lastmod>2024-03-02T15:36:10+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:52912/pythondersleri/ilkders/</loc>
     <lastmod>2024-02-28T13:44:32+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/pythondersleri/ilkders/</loc>
+    <loc>http://localhost:52912/pythondersleri/</loc>
     <lastmod>2024-02-28T13:44:32+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/pythondersleri/</loc>
-    <lastmod>2024-02-28T13:44:32+03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:62450/posts/</loc>
+    <loc>http://localhost:52912/programlama/programlamakategorideneme/</loc>
     <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/programlama/programlamakategorideneme/</loc>
+    <loc>http://localhost:52912/programlama/</loc>
     <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/programlama/</loc>
+    <loc>http://localhost:52912/posts/python/</loc>
     <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/python/</loc>
+    <loc>http://localhost:52912/resume/resume/</loc>
     <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/resume/resume/</loc>
+    <loc>http://localhost:52912/resume/</loc>
     <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/resume/</loc>
-    <lastmod>2024-02-28T02:15:06+03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:62450/posts/1708842160621-s/</loc>
+    <loc>http://localhost:52912/posts/1708842160621-s/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/1708759923800-new-article/</loc>
+    <loc>http://localhost:52912/posts/1708759923800-new-article/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/projects/</loc>
+    <loc>http://localhost:52912/projects/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/python-ilk-ders/</loc>
+    <loc>http://localhost:52912/posts/python-ilk-ders/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/</loc>
+    <loc>http://localhost:52912/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/</loc>
+    <lastmod>2024-02-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:52912/posts/denemegonderi/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/denemegonderi/</loc>
+    <loc>http://localhost:52912/posts/my-first-post/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/my-first-post/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
+    <loc>http://localhost:52912/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:62450/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:62450/projects/projects/</loc>
+    <loc>http://localhost:52912/projects/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,128 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emreceng</title>
-    <link>http://localhost:62450/</link>
+    <link>http://localhost:52912/</link>
     <description>Recent content on Emreceng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Emre Canik</copyright>
-    <lastBuildDate>Wed, 28 Feb 2024 13:44:32 +0300</lastBuildDate><atom:link href="http://localhost:62450/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Mar 2024 15:36:10 +0300</lastBuildDate><atom:link href="http://localhost:52912/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deneme2</title>
+      <link>http://localhost:52912/posts/deneme2/</link>
+      <pubDate>Sat, 02 Mar 2024 15:36:10 +0300</pubDate>
+      
+      <guid>http://localhost:52912/posts/deneme2/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Ilkders</title>
-      <link>http://localhost:62450/pythondersleri/ilkders/</link>
+      <link>http://localhost:52912/pythondersleri/ilkders/</link>
       <pubDate>Wed, 28 Feb 2024 13:44:32 +0300</pubDate>
       
-      <guid>http://localhost:62450/pythondersleri/ilkders/</guid>
+      <guid>http://localhost:52912/pythondersleri/ilkders/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Programlamakategorideneme</title>
-      <link>http://localhost:62450/programlama/programlamakategorideneme/</link>
+      <link>http://localhost:52912/programlama/programlamakategorideneme/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:62450/programlama/programlamakategorideneme/</guid>
+      <guid>http://localhost:52912/programlama/programlamakategorideneme/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Python Eğitimi</title>
-      <link>http://localhost:62450/posts/python/</link>
+      <link>http://localhost:52912/posts/python/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:62450/posts/python/</guid>
+      <guid>http://localhost:52912/posts/python/</guid>
       <description>Temel Seviye Python x ders Python&amp;#39;un temellerini öğrenin Başlangıç ve Temeller: Bu bölümde, Python programlama diline giriş yaparak başlıyoruz.</description>
       
     </item>
     
     <item>
       <title>Resume</title>
-      <link>http://localhost:62450/resume/resume/</link>
+      <link>http://localhost:52912/resume/resume/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:62450/resume/resume/</guid>
+      <guid>http://localhost:52912/resume/resume/</guid>
       <description>Technical Skills 🔧 C Python C# Html/CSS JavaScript Kotlin Swift Microservices Data Structures Docker Linux/Bash SQL Server MATLAB DevOps</description>
       
     </item>
     
     <item>
       <title>s</title>
-      <link>http://localhost:62450/posts/1708842160621-s/</link>
+      <link>http://localhost:52912/posts/1708842160621-s/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62450/posts/1708842160621-s/</guid>
+      <guid>http://localhost:52912/posts/1708842160621-s/</guid>
       <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:62450/posts/1708842160621-s/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52912/posts/1708842160621-s/featured.png" />
     </item>
     
     <item>
       <title>deneme yazısı</title>
-      <link>http://localhost:62450/posts/1708759923800-new-article/</link>
+      <link>http://localhost:52912/posts/1708759923800-new-article/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62450/posts/1708759923800-new-article/</guid>
+      <guid>http://localhost:52912/posts/1708759923800-new-article/</guid>
       <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:62450/posts/1708759923800-new-article/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52912/posts/1708759923800-new-article/featured.png" />
     </item>
     
     <item>
       <title>Python ilk ders</title>
-      <link>http://localhost:62450/posts/python-ilk-ders/</link>
+      <link>http://localhost:52912/posts/python-ilk-ders/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62450/posts/python-ilk-ders/</guid>
+      <guid>http://localhost:52912/posts/python-ilk-ders/</guid>
       <description>Warning!</description>
       
     </item>
     
     <item>
-      <title>2024&#39;te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri</title>
-      <link>http://localhost:62450/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <title>2024&#39;te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri Bölüm : 1</title>
+      <link>http://localhost:52912/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62450/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/</guid>
-      <description>2024&amp;rsquo;te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri # 2023 Stack Overflow Geliştirici Anketi&amp;rsquo;ne göre, Visual Studio Code (VSCode olarak da bilinir) en çok tercih edilen tümleşik geliştirici ortamı (IDE) aracı olarak sıralandı.</description>
+      <guid>http://localhost:52912/posts/2024-visualstudio-araclari/2024-visualstudio-araclari/</guid>
+      <description>aa</description>
       
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:62450/posts/denemegonderi/</link>
+      <link>http://localhost:52912/posts/denemegonderi/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
       
-      <guid>http://localhost:62450/posts/denemegonderi/</guid>
+      <guid>http://localhost:52912/posts/denemegonderi/</guid>
       <description>safas afssaf</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:62450/posts/denemegonderi/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52912/posts/denemegonderi/featured.jpg" />
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:62450/posts/my-first-post/</link>
+      <link>http://localhost:52912/posts/my-first-post/</link>
       <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
       
-      <guid>http://localhost:62450/posts/my-first-post/</guid>
+      <guid>http://localhost:52912/posts/my-first-post/</guid>
       <description>Introduction # This is bold text, and this is emphasized text.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:62450/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</link>
+      <link>http://localhost:52912/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62450/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</guid>
+      <guid>http://localhost:52912/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</guid>
       <description>Python Deep Dive # Temeller # Python Kurulumu ve Çalışma Ortamı # Python Kurulumu # Ide ve Metin Editörleri # Temel Python Söz dizimi - syntax # Python&amp;rsquo;un sözdizimi, diğer programlama dillerine göre daha okunabilir ve basittir.</description>
       
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:62450/projects/projects/</link>
+      <link>http://localhost:52912/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:62450/projects/projects/</guid>
+      <guid>http://localhost:52912/projects/projects/</guid>
       <description></description>
       
     </item>
