@@ -11,7 +11,7 @@ draft = true
 
 Visual Studio Code, kutudan çıktığı gibi birçok harika özelliğe sahip olup, gelişmiş işlevsellik eklemek için geniş bir uzantı topluluğunu destekler.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/Screenshot-2024-01-12-at-12.01.59-PM.png
+![Visual-studio](2024-visualstudio-araclari/visual-studio.png)
 
 VSCode'un popülaritesini gösteren Stack Overflow anketi ekran görüntüsü (%73.71 katılımcı tarafından kullanılıyor)
 
@@ -99,45 +99,45 @@ Farklı dillerdeki projelerde çalışan geliştiriciler için değerli kılan b
 
 # **Git History**
 
-[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) is an extremely useful extension for version control with Git (the extension has 10 million installs, so it's clear that it's popular). This extension allows you to explore the detailed history of your Git repository directly from the VSCode interface. You can view file history, git log, and perform comparisons.
+[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory), Git ile sürüm kontrolü için son derece kullanışlı bir uzantıdır (uzantının 10 milyon yüklemesi vardır, bu nedenle popüler olduğu açıktır). Bu uzantı, Git deponuzun ayrıntılı geçmişini doğrudan VSCode arayüzünden keşfetmenizi sağlar. Dosya geçmişini, git günlüğünü görüntüleyebilir ve karşılaştırmalar yapabilirsiniz.
 
-It provides an interactive and visual representation of commit logs, branches, and file changes over time. This extension provides a more accessible and uncomplicated experience working on version-controlled projects.
+Taahhüt günlüklerinin, dalların ve zaman içindeki dosya değişikliklerinin etkileşimli ve görsel bir temsilini sağlar. Bu uzantı, sürüm kontrollü projeler üzerinde çalışırken daha erişilebilir ve karmaşık olmayan bir deneyim sağlar.
 
 !https://www.freecodecamp.org/news/content/images/2024/01/gitLogv3--1-.gif
 
-Git History is being used here to create a tag on a specific commit.
+Git Geçmişi burada belirli bir commit üzerinde bir etiket oluşturmak için kullanılmaktadır.
 
 # **GitLens**
 
-[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) is the most robust Git tool, with so many features bundled into one extension. It has a strong open-source community, and it continues to have active support with frequent updates.
+[GitLens] (https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), tek bir uzantıda bir araya getirilmiş pek çok özelliği ile en sağlam Git aracıdır. Güçlü bir açık kaynak topluluğuna sahiptir ve sık güncellemelerle aktif desteğe sahip olmaya devam etmektedir.
 
-With GitLens, you can gain powerful insights into your repositories directly in VSCode. Annotations are integrated throughout the editor, displaying tons of Git information.
+GitLens ile, doğrudan VSCode'da depolarınız hakkında güçlü bilgiler edinebilirsiniz. Ek açıklamalar, tonlarca Git bilgisini görüntüleyerek editör boyunca entegre edilmiştir.
 
-One of the most useful features of GitLens is the blame annotation. This allows you to see who wrote the code, and how long ago.
+GitLens'in en kullanışlı özelliklerinden biri suçlama ek açıklamasıdır. Bu, kodu kimin ve ne kadar süre önce yazdığını görmenizi sağlar.
 
 !https://www.freecodecamp.org/news/content/images/2024/01/current-line-blame.png
 
-GitLens traces the line of code to a commit created 4 years ago from the user (You).
+GitLens, kod satırını kullanıcının (Siz) 4 yıl önce oluşturduğu bir commit'e kadar izliyor.
 
-Another feature that I have found to be handy is the interactive rebase editor. This provides a nice user experience when performing rebases.
+Kullanışlı bulduğum bir diğer özellik ise interaktif yeniden düzenleme editörü. Bu, yeniden düzenlemeler gerçekleştirirken güzel bir kullanıcı deneyimi sağlıyor.
 
 !https://www.freecodecamp.org/news/content/images/2024/01/rebase.gif
 
-GitLens' example of an interactive rebase. Commits can be picked, edited, dropped, squashed, and more.
+GitLens'in etkileşimli rebase örneği. Komiteler seçilebilir, düzenlenebilir, bırakılabilir, ezilebilir ve daha fazlası yapılabilir.
 
 # **GitHub Copilot**
 
-[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) has gained a ton of traction over the last two years. This product has revolutionized the coding experience by leveraging advanced AI capabilities. It not only assists with completing code snippets but also acts as an AI pair programming copilot, offering intelligent suggestions for entire lines or blocks of code.
+[GitHub Copilot] (https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) son iki yılda büyük ilgi gördü. Bu ürün, gelişmiş yapay zeka yeteneklerinden yararlanarak kodlama deneyiminde devrim yarattı. Yalnızca kod parçacıklarının tamamlanmasına yardımcı olmakla kalmıyor, aynı zamanda tüm kod satırları veya blokları için akıllı öneriler sunan bir AI çift programlama yardımcı pilotu görevi görüyor.
 
-The strength of GitHub Copilot lies in its integration with OpenAI, tapping into a vast repository of open-source code to provide contextually relevant and practical suggestions. This not only accelerates coding speed but also serves as a valuable learning tool, exposing you to diverse coding patterns and best practices.
+GitHub Copilot'un gücü, OpenAI ile entegrasyonunda yatıyor ve bağlamsal olarak alakalı ve pratik öneriler sunmak için geniş bir açık kaynak kod havuzundan yararlanıyor. Bu sadece kodlama hızını artırmakla kalmaz, aynı zamanda sizi çeşitli kodlama modellerine ve en iyi uygulamalara maruz bırakarak değerli bir öğrenme aracı olarak da hizmet eder.
 
-This is not a free tool. A subscription can run you $10 per month as an individual, or it can be purchased for teams at a discounted rate. If you'd like to try out GitHub Copilot, there is currently a 30-day trail offer.
+Bu ücretsiz bir araç değildir. Bir abonelik size bireysel olarak ayda 10 dolara mal olabilir veya ekipler için indirimli bir fiyattan satın alınabilir. GitHub Copilot'u denemek isterseniz, şu anda 30 günlük bir deneme teklifi var.
 
 !https://www.freecodecamp.org/news/content/images/2024/01/212964557-8d832278-61bb-4288-a8a7-47f35859e868.gif
 
-GitHub Copilot using intelligent autocomplete on a function.
+Bir fonksiyon üzerinde akıllı otomatik tamamlama kullanan GitHub Copilot.
 
-There are also some free alternatives which you can [read more about here](https://www.freecodecamp.org/news/ai-tools-to-use-in-vs-code/) (and I talk about Tabnine below as well).
+Ayrıca [buradan daha fazlasını okuyabileceğiniz] (https://www.freecodecamp.org/news/ai-tools-to-use-in-vs-code/) bazı ücretsiz alternatifler de var (ve aşağıda Tabnine'den de bahsediyorum).
 
 # **Icon Themes**
 
