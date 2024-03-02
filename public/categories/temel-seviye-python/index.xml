@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Temel-Seviye-Python on Emreceng</title>
-    <link>http://localhost:52912/categories/temel-seviye-python/</link>
+    <link>http://localhost:1313/categories/temel-seviye-python/</link>
     <description>Recent content in Temel-Seviye-Python on Emreceng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Emre Canik</copyright>
-    <lastBuildDate>Wed, 28 Feb 2024 13:44:32 +0300</lastBuildDate><atom:link href="http://localhost:52912/categories/temel-seviye-python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Feb 2024 13:44:32 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/temel-seviye-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ilkders</title>
-      <link>http://localhost:52912/pythondersleri/ilkders/</link>
+      <link>http://localhost:1313/pythondersleri/ilkders/</link>
       <pubDate>Wed, 28 Feb 2024 13:44:32 +0300</pubDate>
       
-      <guid>http://localhost:52912/pythondersleri/ilkders/</guid>
+      <guid>http://localhost:1313/pythondersleri/ilkders/</guid>
       <description></description>
       
     </item>

@@ -1,19 +1,19 @@
-+++
-title = "2024'te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri Bölüm : 1"
-date = 2024-02-14
-draft = true
-featured_image = '2024-visualstudio-araclari/featured.png'
-tags = ["vscode", "ide", "programlama","araçlar"]
-+++
-
-
-aa
+---
+title: "2024'te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri Bölüm : 1"
+date: 2024-02-14
+draft: true
+description: "aciklama"
+tags: ["vscode", "ide", "programlama","araçlar"]
+fearueimage : true
+showHero: featured.png
+heroStyle: background
+---
 
 2023 Stack Overflow Geliştirici Anketi'ne göre, Visual Studio Code (VSCode olarak da bilinir) en çok tercih edilen tümleşik geliştirici ortamı (IDE) aracı olarak sıralandı.
 
 Visual Studio Code, kutudan çıktığı gibi birçok harika özelliğe sahip olup, gelişmiş işlevsellik eklemek için geniş bir uzantı topluluğunu destekler.
 
-![Visual-studio](2024-visualstudio-araclari/visual-studio.png)
+![Visual-studio](visual-studio.png)
 
 VSCode'un popülaritesini gösteren Stack Overflow anketi ekran görüntüsü (%73.71 katılımcı tarafından kullanılıyor)
 
@@ -27,7 +27,7 @@ Desteklenen özellikler arasında uyarıları kategorize etme, sorgular yazma, b
 
 Yorum satırları, dışarıda bırakılmalarını vurgulayarak ve kaldırılmaları gerektiğini belirterek koyu gri renkte ve metin üstü çizgili olarak biçimlendirilmiştir.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/better-comments.png
+![bettercomments](better-comments.png)
 
 Better Comments ile biçimlendirilmiş kod yorumları:
 
@@ -41,7 +41,7 @@ hugo da bu şekilde gönderi oluşturdum ancak ne featured image gözüküyor ne
 
 Tüm yer işaretleri, ayrılmış bir kenar çubuğu bölümünde bulunabilir. Bu, gezinmeyi geliştirmek ve başvuruları aramak için daha az zaman harcamanıza yardımcı olacak harika bir araçtır.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/printscreen-toggle.png
+![printscreen-toggle](printscreen-toggle.png)
 
 Bookmarks, satır numarasının yanında yer işareti simgesi ile birlikte mavi renkte görüntülenir.
 
@@ -51,7 +51,7 @@ Bookmarks, satır numarasının yanında yer işareti simgesi ile birlikte mavi 
 
 Bu benim kişisel favori uzantılarımdan biridir. Bu sayede birçok yazım hatasını tespit edip düzelttim.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/example.gif
+![code-spell-checker](example.gif)
 
 Bu görüntü, Yazım Denetleyicisi'nin yazım hatalarını nasıl algıladığını ve düzelttiğini gösterir.
 
@@ -63,7 +63,7 @@ Kodunuzun bir ekran görüntüsünü almak için (Windows ve Linux'ta Ctrl+Shift
 
 Bunu yapabilen web siteleri de bulunsa da, bu tür araçların düzenleyicinizde bulunması, üretkenliği artırmak için daha az bağlam değiştirmeye izin verir.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/material_operator-mono.png
+![material_operator-mono](material_operator-mono.png)
 
 CodeSnap ile oluşturulmuş örnek React kod parçacığı.
 
