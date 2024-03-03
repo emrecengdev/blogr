@@ -139,11 +139,10 @@ GitHub Copilot'un gücü, OpenAI ile entegrasyonunda yatıyor ve bağlamsal olar
 
 Bu ücretsiz bir araç değildir. Bir abonelik size bireysel olarak ayda 10 dolara mal olabilir veya ekipler için indirimli bir fiyattan satın alınabilir. GitHub Copilot'u denemek isterseniz, şu anda 30 günlük bir deneme teklifi var.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/212964557-8d832278-61bb-4288-a8a7-47f35859e868.gif
+![copilot](copilot.gif)
 
 Bir fonksiyon üzerinde akıllı otomatik tamamlama kullanan GitHub Copilot.
 
-Ayrıca [buradan daha fazlasını okuyabileceğiniz] (https://www.freecodecamp.org/news/ai-tools-to-use-in-vs-code/) bazı ücretsiz alternatifler de var (ve aşağıda Tabnine'den de bahsediyorum).
 
 # **Icon Themes**
 
@@ -155,6 +154,6 @@ Bir simge paketi seçmek söz konusu olduğunda pek çok seçenek vardır. Üç 
 
 İyi bir simge setinin dosya gezgininin genel okunabilirliğini artırdığını düşünüyorum. Geliştirilmiş görsel deneyimin ek faydalarından keyif alıyorum.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/Group-2.png
+![group-2](group-2.png)
 
 vscode-ikonları (solda) ve Materyal Simge Teması (sağda) etkinken editörümün yan yana karşılaştırması. Dosya türleri ve klasörler için ne içerdiklerini gösteren simgeler var.
