@@ -28,45 +28,5 @@
       
     </item>
     
-    <item>
-      <title>Araçlar</title>
-      <link>http://localhost:1313/tags/ara%C3%A7lar/</link>
-      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ara%C3%A7lar/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Ide</title>
-      <link>http://localhost:1313/tags/ide/</link>
-      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ide/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Programlama</title>
-      <link>http://localhost:1313/tags/programlama/</link>
-      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/programlama/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Vscode</title>
-      <link>http://localhost:1313/tags/vscode/</link>
-      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/vscode/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>

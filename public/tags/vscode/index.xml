@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Emre Canik</copyright>
-    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2024&#39;te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri Bölüm : 1</title>
-      <link>http://localhost:1313/posts/2024-visualstudio-araclari/</link>
-      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/2024-visualstudio-araclari/</guid>
-      <description>2023 Stack Overflow Geliştirici Anketi&amp;rsquo;ne göre, Visual Studio Code (VSCode olarak da bilinir) en çok tercih edilen tümleşik geliştirici ortamı (IDE) aracı olarak sıralandı.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-visualstudio-araclari/featured.png" />
-    </item>
-    
+    <atom:link href="http://localhost:1313/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
