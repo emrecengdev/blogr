@@ -75,13 +75,13 @@ Yapay zeka, geliştirici verimliliğini artırmada önemli bir oyuncu haline gel
 
 Test söz konusu olduğunda, CodiumAI üstündür. Kodu analiz edebilir ve anlamlı testler ve kapsamlı test paketleri oluşturabilir.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/Tests-Gif.gif
+![test-gif](Tests-Gif.gif)
 
 CodiumAI, Python kodunun bir bölümüne dayalı bir test paketi oluşturur.
 
 Bu nispeten yeni bir uzantıdır ve hızla popülerlik kazanmaktadır. Desteklenen diller Python, JavaScript, TypeScript, Java, Go ve diğerleridir.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/g_python_random_gen_with_logo.gif
+![random](random.gif)
 
 CodiumAI'nin otomatik tamamlama işlevi, doğal dil istemlerine dayalı işlevler oluşturmak için kullanılır.
 
@@ -95,7 +95,7 @@ Errors will not go unnoticed with this extension. Error and warnings are made pr
 
 Bu eklenti ile hatalar fark edilmeyecektir. Hata ve uyarılar, satır içinde yazdırılan ilgili mesajla birlikte tüm satır vurgulanarak belirgin hale getirilir
 
-!https://www.freecodecamp.org/news/content/images/2024/01/demo.png
+![demo](demo.png)
 
 Error Lens bir hatayı tanımlayarak eksik noktalı virgül ve sözdizimi hatası olduğunu bildirir.
 
@@ -109,31 +109,31 @@ Farklı dillerdeki projelerde çalışan geliştiriciler için değerli kılan b
 
 Taahhüt günlüklerinin, dalların ve zaman içindeki dosya değişikliklerinin etkileşimli ve görsel bir temsilini sağlar. Bu uzantı, sürüm kontrollü projeler üzerinde çalışırken daha erişilebilir ve karmaşık olmayan bir deneyim sağlar.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/gitLogv3--1-.gif
+![gitlog](gitlog.gif)
 
 Git Geçmişi burada belirli bir commit üzerinde bir etiket oluşturmak için kullanılmaktadır.
 
 # **GitLens**
 
-[GitLens] (https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), tek bir uzantıda bir araya getirilmiş pek çok özelliği ile en sağlam Git aracıdır. Güçlü bir açık kaynak topluluğuna sahiptir ve sık güncellemelerle aktif desteğe sahip olmaya devam etmektedir.
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), tek bir uzantıda bir araya getirilmiş pek çok özelliği ile en sağlam Git aracıdır. Güçlü bir açık kaynak topluluğuna sahiptir ve sık güncellemelerle aktif desteğe sahip olmaya devam etmektedir.
 
 GitLens ile, doğrudan VSCode'da depolarınız hakkında güçlü bilgiler edinebilirsiniz. Ek açıklamalar, tonlarca Git bilgisini görüntüleyerek editör boyunca entegre edilmiştir.
 
 GitLens'in en kullanışlı özelliklerinden biri suçlama ek açıklamasıdır. Bu, kodu kimin ve ne kadar süre önce yazdığını görmenizi sağlar.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/current-line-blame.png
+![current-line-blame](current-line-blame.png)
 
 GitLens, kod satırını kullanıcının (Siz) 4 yıl önce oluşturduğu bir commit'e kadar izliyor.
 
 Kullanışlı bulduğum bir diğer özellik ise interaktif yeniden düzenleme editörü. Bu, yeniden düzenlemeler gerçekleştirirken güzel bir kullanıcı deneyimi sağlıyor.
 
-!https://www.freecodecamp.org/news/content/images/2024/01/rebase.gif
+![rebase](rebase.gif)
 
 GitLens'in etkileşimli rebase örneği. Komiteler seçilebilir, düzenlenebilir, bırakılabilir, ezilebilir ve daha fazlası yapılabilir.
 
 # **GitHub Copilot**
 
-[GitHub Copilot] (https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) son iki yılda büyük ilgi gördü. Bu ürün, gelişmiş yapay zeka yeteneklerinden yararlanarak kodlama deneyiminde devrim yarattı. Yalnızca kod parçacıklarının tamamlanmasına yardımcı olmakla kalmıyor, aynı zamanda tüm kod satırları veya blokları için akıllı öneriler sunan bir AI çift programlama yardımcı pilotu görevi görüyor.
+[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) son iki yılda büyük ilgi gördü. Bu ürün, gelişmiş yapay zeka yeteneklerinden yararlanarak kodlama deneyiminde devrim yarattı. Yalnızca kod parçacıklarının tamamlanmasına yardımcı olmakla kalmıyor, aynı zamanda tüm kod satırları veya blokları için akıllı öneriler sunan bir AI çift programlama yardımcı pilotu görevi görüyor.
 
 GitHub Copilot'un gücü, OpenAI ile entegrasyonunda yatıyor ve bağlamsal olarak alakalı ve pratik öneriler sunmak için geniş bir açık kaynak kod havuzundan yararlanıyor. Bu sadece kodlama hızını artırmakla kalmaz, aynı zamanda sizi çeşitli kodlama modellerine ve en iyi uygulamalara maruz bırakarak değerli bir öğrenme aracı olarak da hizmet eder.
 
