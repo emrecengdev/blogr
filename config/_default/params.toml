@@ -5,7 +5,7 @@ enableSearch = true
 enableCodeCopy = true
 disableImageOptimization = true
 disableTextInHeader = false
-defaultBackgroundImage = "d23.png"
+defaultBackgroundImage = "backgroundx.webp"
 smartTOC = "enable"
 
 [header]
