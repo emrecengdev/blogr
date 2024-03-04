@@ -3,20 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/deneme2/</loc>
-    <lastmod>2024-03-02T15:36:10+03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-03-02T15:36:10+03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-03-02T15:36:10+03:00</lastmod>
+    <lastmod>2024-02-28T13:44:32+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -29,6 +17,12 @@
   <url>
     <loc>http://localhost:1313/pythondersleri/</loc>
     <lastmod>2024-02-28T13:44:32+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -63,18 +57,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/1708842160621-s/</loc>
-    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/1708759923800-new-article/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -94,12 +76,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/denemegonderi/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

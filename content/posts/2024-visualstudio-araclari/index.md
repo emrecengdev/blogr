@@ -3,6 +3,7 @@ title: "2024'te Üretkenliğinizi Artıracak Visual Studio Kod Eklentileri Böl�
 date: 2024-02-14
 draft: true
 description: "aciklama"
+categories: ["araclar","programlama"]
 tags: ["vscode", "ide", "programlama","araçlar"]
 fearueimage : true
 showHero: featured.png
@@ -154,6 +155,6 @@ Bir simge paketi seçmek söz konusu olduğunda pek çok seçenek vardır. Üç 
 
 İyi bir simge setinin dosya gezgininin genel okunabilirliğini artırdığını düşünüyorum. Geliştirilmiş görsel deneyimin ek faydalarından keyif alıyorum.
 
-![group-2](group-2.png)
+![grup-2](grup-2.png)
 
 vscode-ikonları (solda) ve Materyal Simge Teması (sağda) etkinken editörümün yan yana karşılaştırması. Dosya türleri ve klasörler için ne içerdiklerini gösteren simgeler var.

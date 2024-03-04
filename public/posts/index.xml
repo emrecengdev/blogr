@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Emre Canik</copyright>
-    <lastBuildDate>Sat, 02 Mar 2024 15:36:10 +0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deneme2</title>
-      <link>http://localhost:1313/posts/deneme2/</link>
-      <pubDate>Sat, 02 Mar 2024 15:36:10 +0300</pubDate>
-      
-      <guid>http://localhost:1313/posts/deneme2/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Wed, 28 Feb 2024 02:15:06 +0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Eğitimi</title>
       <link>http://localhost:1313/posts/python/</link>
@@ -26,26 +16,6 @@
       <guid>http://localhost:1313/posts/python/</guid>
       <description>Temel Seviye Python x ders Python&amp;#39;un temellerini öğrenin Başlangıç ve Temeller: Bu bölümde, Python programlama diline giriş yaparak başlıyoruz.</description>
       
-    </item>
-    
-    <item>
-      <title>s</title>
-      <link>http://localhost:1313/posts/1708842160621-s/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1708842160621-s/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1708842160621-s/featured.png" />
-    </item>
-    
-    <item>
-      <title>deneme yazısı</title>
-      <link>http://localhost:1313/posts/1708759923800-new-article/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/1708759923800-new-article/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/1708759923800-new-article/featured.png" />
     </item>
     
     <item>
@@ -76,16 +46,6 @@
       <guid>http://localhost:1313/posts/denemegonderi/</guid>
       <description>safas afssaf</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/denemegonderi/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction # This is bold text, and this is emphasized text.</description>
-      
     </item>
     
     <item>

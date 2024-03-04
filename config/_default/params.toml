@@ -5,7 +5,7 @@ enableSearch = true
 enableCodeCopy = true
 disableImageOptimization = true
 disableTextInHeader = false
-defaultBackgroundImage = "dd@2x.png"
+defaultBackgroundImage = "d23.png"
 smartTOC = "enable"
 
 [header]
@@ -54,8 +54,7 @@ showWordCount = true
 showZenMode = false
 showRelatedContent = ""
 heroStyle = "background"
-article.showHero	= "true"
-article.heroStyle	= "background"
+article = { showHero = "true", heroStyle = "background" }
 
 [list]
 showHero = true
