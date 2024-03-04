@@ -13,7 +13,7 @@ description = "site açıklaması"
 
 [author]
 name = "Emre Canik"
-image = "emre.png"
+image = "profile.webp"
 headline = "Data scientist / DevOps / SwiftDev"
 bio = "benim bio"
 links = [ { link = "https://link-to-some-website.com/" } ]
