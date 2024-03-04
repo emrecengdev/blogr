@@ -39,16 +39,6 @@
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/denemegonderi/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/denemegonderi/</guid>
-      <description>safas afssaf</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/denemegonderi/featured.jpg" />
-    </item>
-    
-    <item>
       <title></title>
       <link>http://localhost:1313/posts/33b35ead-f002-47e5-9f67-e661edcd4600_export-24dc4919-de8e-4f4f-a86a-a84e455bcaf2/python-deep-dive-1fe1219d4de14d25954602f59ffc9228/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
