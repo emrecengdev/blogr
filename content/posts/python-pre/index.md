@@ -26,7 +26,7 @@ Transistörler, elektrik akımını kontrol ederek çalışır. Bu minik elektro
 
 Programlama dilleri, biz insanların bilgisayarlarla iletişim kurmasını sağlayan sihirli bir araçtır. `Python` gibi yüksek seviyeli dillerden, bilgisayarın anlayabileceği `makine kodu`na kadar bir dizi dil vardır.En düşük seviye, makine kodudur; bu, bilgisayarın doğrudan anlayabildiği ve işleyebildiği, 0’lar ve 1’lerden oluşan bir dildir. Her bir 0 veya 1, bir transistörün açık veya kapalı durumunu temsil eder.Bu diller, yazdığınız programları bilgisayarın anlayıp çalıştırabileceği dillere dönüştürür. Ve işte bu dönüşüm süreci, derleme olarak bilinir.Derlenmiş makine kodu, işlemci tarafından doğrudan yürütülebilir. İşlemci, bu kodu okuyarak transistörlerin ne zaman açılıp kapanacağını belirler, bu da bilgisayarın belirli görevleri yerine getirmesini sağlar.
 
-![computer-human](computer-human.png)
+![computer-human](computer-human.webp)
 
 # 0 ve 1'lerin Büyülü Dünyası
 

@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/posts/python-pre/</guid>
       <description>Başlangıç: Bilgisayarlar ve Programlama Üzerine Eğlenceli Bir Yolculuk 🚀 # Merak etmeyin, sizi hemen derin teknik detaylara boğmadan önce bilgisayarlar ve programlama dünyasına kısa bir giriş yapalım.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/python-pre/feature.webp" />
     </item>
     
     <item>
