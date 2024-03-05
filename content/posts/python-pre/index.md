@@ -7,54 +7,64 @@ series: ["python-temel"]
 series_order: 1
 
 ---
-# Önbilgiler 
 
-Programlama ve bilgisayarlar hakkında kısa bir bilgi vermeden başlamayalım. Sistemin çalışma mantığını anlamanız adın bu kısa ve zevkli yazıyı okumanızı tavsiye ederim. Dilerseniz son başlığa geçip ide'yi kurduktan sonra ilk derse de geçebilirsiniz. 
+# Başlangıç: Bilgisayarlar ve Programlama Üzerine Eğlenceli Bir Yolculuk 🚀
+
+Merak etmeyin, sizi hemen derin teknik detaylara boğmadan önce bilgisayarlar ve programlama dünyasına kısa bir giriş yapalım. Bu yazı, sistemin nasıl çalıştığını anlamanız için keyifli ve bilgilendirici bir başlangıç olacak. İsterseniz, doğrudan son bölüme geçip IDE'nizi kurduktan sonra ilk derse başlayabilirsiniz. Ama öncesinde, bu kısa girişi okumanızı öneririm.
 
 ![turing](turing.webp)
 
-## Kullanıcı - Bilgisayar Etkileşimi 
+## Kullanıcı ve Bilgisayar: Birbirimizi Anlamak
 
-Bilgisayarların çalışma mantığı temelde basit bir prensibe dayanır: veri işleme. Bu işlem, bir dizi elektronik bileşen aracılığıyla gerçekleştirilir ve bu bileşenlerin en temeli transistördür. Transistörler, bilgisayarın temel yapı taşlarından biridir ve veri işlemede temel rol oynarlar. İşleyişlerini, transistörlerin iletim (açık) ve kesim (kapalı) durumları üzerinden açıklayarak başlayalım, ardından bu durumların programlama ve makine koduyla nasıl ilişkilendiğini inceleyeceğiz.
+Bilgisayarlar, aslında basit bir prensibe dayanır: veri işleme. Bu işleme, elektronik bileşenler (en önemlisi transistörler) aracılığıyla gerçekleşir. Transistörler, işlemcilerin yapıtaşıdır ve bilgisayarın beyni gibidir, verileri işleyerek bilgisayarın ne yapacağını belirler. İşte bu basit prensip, muhteşem işler başarmamızı sağlar.
 
-## Transistörler ve Mantıksal Kapılar
-Transistörler, elektrik akımını kontrol etmek için kullanılan minyatür elektronik bileşenlerdir. Temel olarak, bir transistör bir tür "anahtar" olarak işlev görür ve elektrik akımının geçip geçemeyeceğini kontrol eder. Transistörlerin bu temel işlevi, bilgisayarların temel mantık işlemlerini (AND, OR, NOT gibi) gerçekleştirmesini sağlar. Bu mantık işlemleri, mantıksal kapılar adı verilen devreler kullanılarak yapılır ve bu kapılar, transistörlerin farklı kombinasyonlarından oluşur.
+## Transistörler: Elektronik Dünyanın Yapı Taşları
 
-## Programlama ve Makine Kodu
-Programlama dilleri, insanların bilgisayarlarla iletişim kurmasını sağlayan araçlardır. Bu diller, yüksek seviyeden (insanların kolayca anlayabileceği) düşük seviyeye (bilgisayarın anlayabileceği) doğru çeşitlilik gösterir. En düşük seviye, makine kodudur; bu, bilgisayarın doğrudan anlayabildiği ve işleyebildiği, 0'lar ve 1'lerden oluşan bir dildir. Her bir 0 veya 1, bir transistörün açık veya kapalı durumunu temsil eder.
+Transistörler, elektrik akımını kontrol ederek çalışır. Bu minik elektronik bileşenler, bir tür "anahtar" gibi davranır ve bilgisayarın temel mantık işlemlerini (AND, OR, NOT gibi) yapmasına olanak tanır. Transistörler ve onların oluşturduğu mantıksal kapılar sayesinde, bilgisayarlar karmaşık hesaplamalar yapabilir. Transistörlerin iletimlerinin açık veya kapalı olmasına göre <code> 0 ve 1</code> oluşur.
 
-Bir programlama diliyle yazılmış bir program, çeşitli aşamalardan geçerek makine koduna dönüştürülür. Bu süreç genellikle derleme olarak adlandırılır. Derlenmiş makine kodu, işlemci tarafından doğrudan yürütülebilir. İşlemci, bu kodu okuyarak transistörlerin ne zaman açılıp kapanacağını belirler, bu da bilgisayarın belirli görevleri yerine getirmesini sağlar.
+## Programlama: İnsan ve Makine Arasındaki Köprü
 
-# 0 ve 1'lerin Hayat Buluşu 
+Programlama dilleri, biz insanların bilgisayarlarla iletişim kurmasını sağlayan sihirli bir araçtır. `Python` gibi yüksek seviyeli dillerden, bilgisayarın anlayabileceği `makine kodu`na kadar bir dizi dil vardır.En düşük seviye, makine kodudur; bu, bilgisayarın doğrudan anlayabildiği ve işleyebildiği, 0’lar ve 1’lerden oluşan bir dildir. Her bir 0 veya 1, bir transistörün açık veya kapalı durumunu temsil eder.Bu diller, yazdığınız programları bilgisayarın anlayıp çalıştırabileceği dillere dönüştürür. Ve işte bu dönüşüm süreci, derleme olarak bilinir.Derlenmiş makine kodu, işlemci tarafından doğrudan yürütülebilir. İşlemci, bu kodu okuyarak transistörlerin ne zaman açılıp kapanacağını belirler, bu da bilgisayarın belirli görevleri yerine getirmesini sağlar.
 
-Makine kodunun yazıya, görüntüye, programa ve diğer çıktı türlerine dönüşümü, bilgisayar sistemlerinin temel işlevlerinden biridir ve bu işlemler, veri işleme ve dönüşüm mekanizmaları aracılığıyla gerçekleştirilir. Bu süreç, makine kodunun nasıl daha karmaşık veri yapılarına ve nihayetinde kullanıcıların anlayabileceği formatlara dönüştürüldüğünü kapsar. Bu dönüşüm işlemlerinin temel aşamalarını inceleyelim:
+![computer-human](computer-human.png)
 
-## Makine Kodundan Yüksek Seviye Kodlara
+# 0 ve 1'lerin Büyülü Dünyası
 
-Bir bilgisayarın işlemcisi, makine kodunu doğrudan çalıştırır. Bu kod, çok düşük seviyeli bir dil olduğundan, yalnızca temel işlemleri (örneğin, aritmetik işlemler, mantıksal işlemler ve veri taşıma işlemleri) ifade eder. Yüksek seviye dillerde (örneğin, Python, Java, C++) yazılmış programlar, derleyiciler ve yorumlayıcılar aracılığıyla bu düşük seviyeli makine koduna dönüştürülür. Bu dönüşüm, programın bilgisayarın işlemcisi tarafından anlaşılır hale gelmesini sağlar.
+Makine kodu, basit 0'lar ve 1'lerden ibaret olup, bilgisayarın anlayıp işleyebileceği dildir. Bu kodlar, çeşitli çıktılar üreterek bilgisayarın sizin için çalışmasını sağlar. İşte bu çıktılar, metinler, resimler, programlar ve daha fazlası olabilir. Evet şuan ekranda gördüğünüz görüntü dahi 0 ve 1'lerden oluşuyor. Tıpkı evrenin atomlardan (proton ve elektron) oluşması gibi. 
 
-## Veri Yapıları ve Abstraksiyon
+## Makine Kodundan Anlaşılır Dile
 
-Programlar çalışırken, makine kodu, çeşitli veri yapıları ile çalışır. Bu veri yapıları, sayılar, metinler, resimler veya daha karmaşık nesneler olabilir. Programlama dilleri, bu verileri işlemek için abstraksiyon katmanları sağlar. Örneğin, bir metin dizisi veya bir resim, bellekte sayı dizileri olarak saklanır. Bu sayılar, belirli formatlara (örneğin, ASCII kodu veya piksel renk değerleri) uygun olarak yorumlanır ve işlenir.
+Bilgisayarların işlemcileri, makine kodunu direkt olarak çalıştırır. Ancak, yüksek seviyeli dillerde yazılan programlar, bu kodlara "çevrilir". Bu dönüşüm sayesinde, programlar bilgisayarlar tarafından anlaşılır ve çalıştırılabilir hale gelir.
 
-## Çıktıların Üretilmesi
+## Veriler ve Abstraksiyon
 
-Bilgisayarlar, makine kodundan elde edilen işlemleri kullanarak çeşitli çıktılar üretebilir. Bu çıktılar arasında yazılı belgeler, grafikler, sesler ve videolar bulunabilir. Örneğin:
+Programlar, çeşitli veri yapıları ile çalışır. Bu yapılar, sayılardan metinlere, resimlere kadar her şey olabilir. Programlama dilleri, bu verileri işlememizi kolaylaştıran araçlar sunar. Örneğin, bir resim aslında bellekte bir sayı dizisi olarak saklanır.
 
-- **Metin İşleme:** Makine kodu, metin düzenleyicilerdeki komutları işleyerek yazılı belgeler oluşturabilir. Bu, karakter kodlarının belirli bir format kullanılarak ekranda gösterilmesini içerir.
-- **Grafik ve Görüntü İşleme:** Grafik işleme birimleri (GPU'lar) ve özel grafik kütüphaneleri, makine kodunu, ekranda görseller ve animasyonlar oluşturacak şekilde işler. Her bir pikselin rengi, belirli bir sayı dizisiyle temsil edilir ve bu sayılar, GPU tarafından işlenir.
-- **Ses ve Video:** Ses ve video dosyaları, örneğin sıkıştırma algoritmaları kullanılarak işlenir ve çözülür. Bu işlemler, sayı dizilerinin ses dalgalarına veya görüntü frame'lerine dönüştürülmesini içerir.
+## Çıktıların Sihiri
 
-## Kullanıcı Arayüzleri
+Bilgisayarlar, verileri işleyerek çeşitli çıktılar üretebilir: metin belgeleri, grafikler, sesler, videolar... Bu süreçler, bilgisayarların nasıl karmaşık işlemleri gerçekleştirdiğinin ve verileri nasıl görselleştirdiğinin temelidir. Örneğin bu yazıda okuduğunuz karakterler bilgisayar sisteminde ASCII karakterleri ile oluşturuluyor. 
 
-Kullanıcı arayüzleri, kullanıcıların programlarla etkileşim kurmasını sağlar ve bu etkileşimler sonucunda makine kodu yürütülür. Kullanıcı arayüzleri, metin tabanlı (örneğin, komut satırı arayüzleri) veya grafik tabanlı (Grafik Kullanıcı Arayüzleri, GUI'ler) olabilir. Kullanıcı girdileri (örneğin, fare tıklamaları veya klavye girdileri), programın işleyeceği verilere dönüştürülür ve bu, belirli çıktıların üretilmesine yol açar.
+![ASCII](ascii.webp)
+
+## Kullanıcı Arayüzleri: Etkileşimin Kapısı
+
+Kullanıcı arayüzleri, kullanıcıların programlarla etkileşim kurmasını sağlar ve bu etkileşimler sonucunda makine kodu yürütülür. Kullanıcı arayüzleri, metin tabanlı (örneğin, komut satırı arayüzleri) veya grafik tabanlı (Grafik Kullanıcı Arayüzleri, GUI’ler) olabilir. Kullanıcı girdileri (örneğin, fare tıklamaları veya klavye girdileri), programın işleyeceği verilere dönüştürülür ve bu, belirli çıktıların üretilmesine yol açar.
 
 Bu süreçlerin tümü, bilgisayarların çok çeşitli görevleri gerçekleştirebilmesini sağlar. Temelde basit olan makine kodu, karmaşık yazılımların ve kullanıcı dostu arayüzlerin temelini oluşturur. Bu dönüşüm mekanizmaları sayesinde, bilgisayarlar geniş bir yelpazede veri işleme ve görselleştirme yeteneklerine sahiptir.
 
+Bu eğlenceli ve bilgilendirici yolculuk sayesinde, bilgisayarların ve programlamanın temellerini anlamaya başladınız. Basit 0'lar ve 1'lerle başlayan bu macera, sizin yaratıcılığınızla sınırları aşan bir dünyaya açılan kapıdır.
+
 # Gerekli Çalışma Ortamının Sağlanması 
 
-Temel seviye için hiçbir ide kurulumu yapmayacağız. Tüm programlama işlemleri için online bir ide olan [replit'i](https://replit.com/signup) kullanacağız.
+Temel seviye için hiçbir ide kurulumu yapmayacağız. Tüm programlama işlemleri için ücretsiz online bir ide olan replit'i kullanacağız.
 Proje ve ödevlerin çözümlerinide replit üzerinden sağlayacağım. 
+
+{{< button href="https://replit.com/signup" target="_blank" >}}
+Replit'e üye ol
+{{< /button >}}
+
+---
+
 
 # Seri Takibi 
 
