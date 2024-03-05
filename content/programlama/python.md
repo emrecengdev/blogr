@@ -13,7 +13,7 @@ draft = true
   <li> Fonksiyonlar ve Modüller: Temel seviyenin ikinci kısmında fonksiyonların nasıl tanımlandığını ve kullanıldığını öğreneceğiz. Yeniden kullanılabilir kod parçaları oluşturmanın önemi üzerinde duracağız ve Python'da yerleşik modüllerin nasıl etkin bir şekilde kullanılacağını keşfedeceğiz.</li>
 </ul>
 
-{{< button href="temel-seviye-python" target="_self" >}}
+{{< button href="ilkders" target="_self" >}}
 Derslere git
 {{< /button >}}
 {{< /timelineItem >}}

@@ -30,8 +30,8 @@ layoutBackgroundBlur = false
 
 [article]
 showDate = true
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
@@ -39,7 +39,7 @@ showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
-showDraftLabel = true
+showDraftLabel = false
 showEdit = false
 editAppendPath = true
 seriesOpened = false
