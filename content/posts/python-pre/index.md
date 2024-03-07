@@ -3,8 +3,7 @@ title : 'Başlamadan Önce'
 date : 2024-03-05T02:15:06+03:00
 categories : ["programlama", "python", "temel kavramlar"]
 draft : true
-series: ["python-temel"]
-series_order: 1
+
 
 ---
 

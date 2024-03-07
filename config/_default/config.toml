@@ -104,7 +104,7 @@ googleAnalytics = "G-2RHJYDWQJ3"
   tag = "tags"
   category = "categories"
   author = "authors"
-  series = "series"
+  series = "python-temelleri"
 
 [sitemap]
   changefreq = 'daily'

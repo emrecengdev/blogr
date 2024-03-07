@@ -21,18 +21,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/pythondersleri/ilkders/</loc>
-    <lastmod>2024-02-28T13:44:32+03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/pythondersleri/</loc>
-    <lastmod>2024-02-28T13:44:32+03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/programlama/programlamakategorideneme/</loc>
     <lastmod>2024-02-28T02:15:06+03:00</lastmod>
     <changefreq>daily</changefreq>
