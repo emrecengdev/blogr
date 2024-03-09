@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Temel Kavramlar on Emreceng</title>
-    <link>http://localhost:56583/categories/temel-kavramlar/</link>
+    <link>http://localhost:1313/categories/temel-kavramlar/</link>
     <description>Recent content in Temel Kavramlar on Emreceng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Emre Canik</copyright>
-    <lastBuildDate>Tue, 05 Mar 2024 02:15:06 +0300</lastBuildDate><atom:link href="http://localhost:56583/categories/temel-kavramlar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Mar 2024 02:15:06 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/temel-kavramlar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Başlamadan Önce</title>
-      <link>http://localhost:56583/posts/python-pre/</link>
+      <link>http://localhost:1313/posts/python-pre/</link>
       <pubDate>Tue, 05 Mar 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:56583/posts/python-pre/</guid>
+      <guid>http://localhost:1313/posts/python-pre/</guid>
       <description>Başlangıç: Bilgisayarlar ve Programlama Üzerine Eğlenceli Bir Yolculuk 🚀 # Merak etmeyin, sizi hemen derin teknik detaylara boğmadan önce bilgisayarlar ve programlama dünyasına kısa bir giriş yapalım.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:56583/posts/python-pre/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/python-pre/feature.webp" />
     </item>
     
     <item>
       <title>Programlamakategorideneme</title>
-      <link>http://localhost:56583/programlama/programlamakategorideneme/</link>
+      <link>http://localhost:1313/programlama/programlamakategorideneme/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:56583/programlama/programlamakategorideneme/</guid>
+      <guid>http://localhost:1313/programlama/programlamakategorideneme/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Programlamakategorideneme</title>
-      <link>http://localhost:56583/programlama/python/ilkders/</link>
+      <link>http://localhost:1313/programlama/python/ilkders/</link>
       <pubDate>Wed, 28 Feb 2024 02:15:06 +0300</pubDate>
       
-      <guid>http://localhost:56583/programlama/python/ilkders/</guid>
+      <guid>http://localhost:1313/programlama/python/ilkders/</guid>
       <description>Python Deep Dive # Temeller # Python Kurulumu ve Çalışma Ortamı # Python Kurulumu # Ide ve Metin Editörleri # Temel Python Söz dizimi - syntax # Python&amp;rsquo;un sözdizimi, diğer programlama dillerine göre daha okunabilir ve basittir.</description>
       
     </item>

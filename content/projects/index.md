@@ -13,7 +13,7 @@ layout: "about"
     <thead>
         <tr>
             <th></th>
-            <th>Title</th>
+            <th>Project Name</th>
             <th>Description</th>
             <th>Link</th>
         </tr>
@@ -21,22 +21,21 @@ layout: "about"
     <tbody>
          <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="todo-icon.webp"/></td>
-            <td>ToDo App (Web Development, GUI)</td>
+            <td> ToDo App (Web Development, GUI)</td>
             <td>FlaskToDo is an intuitive web-based todo list application that simplifies task management and boosts productivity.</td>
-            <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish">github</a></td>
+            <td><a target="_blank" href="https://github.com/emrecengdev/ToDoList-Python-Flask">github</a></td>
         </tr>
-        ---
          <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish-tools.png"/></td>
-            <td>Blowfish-Tools</td>
-            <td>CLI to initialize a Blowfish project</td>
-            <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish-tools">github</a></br><a target="_blank" href="https://www.npmjs.com/package/blowfish-tools">NPM</a></td>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="tictactoe.webp"/></td>
+            <td>TicTacToe (Scripting, Game)</td>
+            <td>A simple, text-based TicTacToe game in Python allowing two players to compete in the classic game through a command-line interface.</td>
+            <td><a target="_blank" href="https://github.com/emrecengdev/TicTacToe-python">github</a></td>
         </tr>
-        <tr>
-            <td><img class="customEntitityAlbum" style="background-color:transparent" src="wormhole-logo-square.png"/></td>
-            <td>Wormhole</td>
-            <td>A wormhole into the universe - web feed for deep space photography</td>
-            <td><a target="_blank" href="https://wormhole.photos">site</a></br><a target="_blank" href="https://github.com/wormhole-photos">github</a></td>
+           <tr>
+            <td><img class="customEntitityAlbum" style="background-color:transparent" src="breakout.webp"/></td>
+            <td>Breakout Game (GUI, Game)</td>
+            <td>A simple, text-based TicTacToe game in Python allowing two players to compete in the classic game through a command-line interface.</td>
+            <td><a target="_blank" href="https://github.com/emrecengdev/TicTacToe-python">github</a></td>
         </tr>
     </tbody>
 </table>
