@@ -28,7 +28,7 @@ weight = 40
 
 [[main]]
 name = "projects"
-pageRef = "projects/projects.md"
+pageRef = "projects/index.md"
 identifier = "projects"
 weight = 50
 
