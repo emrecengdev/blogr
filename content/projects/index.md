@@ -11,7 +11,7 @@ layout: "about"
 
 | logo | Project Name | Description |
 | --- | --- | --- |
-| ![todoicon](todo-icon.png) | ToDo App (Web Development, GUI) |  |
+| ![todoicon](todo-icon.webp) | ToDo App (Web Development, GUI) |  |
 |  | TicTacToe (Scripting, Game) |  |
 |  | Breakout Game (GUI, Game) |  |
 |  | PDF to Audio Book Converter (GUI, TTS API, File Handling) |  |
