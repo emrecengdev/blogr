@@ -25,6 +25,7 @@ layout: "about"
             <td>FlaskToDo is an intuitive web-based todo list application that simplifies task management and boosts productivity.</td>
             <td><a target="_blank" href="https://blowfish.page">site</a></br><a target="_blank" href="https://github.com/nunocoracao/blowfish">github</a></td>
         </tr>
+        ---
          <tr>
             <td><img class="customEntitityAlbum" style="background-color:transparent" src="blowfish-tools.png"/></td>
             <td>Blowfish-Tools</td>
