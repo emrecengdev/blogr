@@ -9,7 +9,7 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 logo = ""
-description = "site açıklaması"
+description = "Caffeine into code"
 
 [author]
 name = "Emre Canik"

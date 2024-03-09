@@ -89,12 +89,12 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/projects/projects/</link>
+      <title>About</title>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/projects/</guid>
-      <description></description>
+      <guid>http://localhost:1313/projects/</guid>
+      <description> Python Projects # logo Project Name Description ToDo App (Web Development, GUI) TicTacToe (Scripting, Game) Breakout Game (GUI, Game) PDF to Audio Book Converter (GUI, TTS API, File Handling) </description>
       
     </item>
     

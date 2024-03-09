@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title> &middot; Emreceng</title>
-  <meta name="title" content=" &middot; Emreceng" />
+  <title>About &middot; Emreceng</title>
+  <meta name="title" content="About &middot; Emreceng" />
   
-  <meta name="description" content="site açıklaması" />
+  <meta name="description" content="Making the Complex Simple and Easy to Understand!" />
   
   
   
@@ -67,16 +67,16 @@
   
   
   
-  <meta property="og:title" content="" />
-<meta property="og:description" content="" />
+  <meta property="og:title" content="About" />
+<meta property="og:description" content="Making the Complex Simple and Easy to Understand!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/projects/projects/" /><meta property="article:section" content="projects" />
 
 
 
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
-<meta name="twitter:description" content=""/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="About"/>
+<meta name="twitter:description" content="Making the Complex Simple and Easy to Understand!"/>
 
   
   <script type="application/ld+json">
@@ -84,10 +84,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Projects",
-    "name": "",
-    "headline": "",
-    
-    
+    "name": "About",
+    "headline": "About",
+    "description": "Making the Complex Simple and Easy to Understand!",
+    "abstract": " Python Projects # logo Project Name Description ToDo App (Web Development, GUI) TicTacToe (Scripting, Game) Breakout Game (GUI, Game) PDF to Audio Book Converter (GUI, TTS API, File Handling) ",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/projects\/projects\/",
     "author" : {
@@ -103,7 +103,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "29"
   }]
   </script>
 
@@ -753,7 +753,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      
+      About
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -777,7 +777,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -800,7 +804,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>29 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
     
     <span id="views_projects/projects.md" 
     
@@ -933,7 +937,81 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#python-projects">Python Projects</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#python-projects">Python Projects</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -942,6 +1020,63 @@
 
         <div class="article-content max-w-prose mb-20">
           
+
+<h1 class="relative group">Python Projects 
+    <div id="python-projects" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#python-projects" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<table>
+<thead>
+<tr>
+<th>logo</th>
+<th>Project Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="/Users/emreceng/emreceng/content/projects/todo-icon.png" alt="todo-icon" />
+      
+    </figure>
+  
+
+</td>
+<td>ToDo App (Web Development, GUI)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>TicTacToe (Scripting, Game)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Breakout Game (GUI, Game)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>PDF to Audio Book Converter (GUI, TTS API, File Handling)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
         </div>
                 
         
@@ -972,7 +1107,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
