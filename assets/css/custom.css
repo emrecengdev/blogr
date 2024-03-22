@@ -127,3 +127,34 @@
 td {
     vertical-align: middle !important;
 }
+
+/* custom.css içindeki beceri çubukları için özel stiller */
+.skill-container {
+    margin-bottom: 10px;
+  }
+  
+  .skill-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skill-name {
+    /* Stil detayları */
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skill-bar-inner {
+    height: 20px;
+    background-color: #4CAF50;
+    /* Animasyon veya geçiş efektleri ekleyebilirsiniz */
+  }
+  
+  .skill-level {
+    /* Stil detayları */
+  }
+  
